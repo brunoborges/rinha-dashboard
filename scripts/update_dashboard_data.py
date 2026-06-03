@@ -162,7 +162,23 @@ def cache_fresh(entry: dict[str, Any], now: datetime) -> bool:
         return False
     if fetched_at.tzinfo is None:
         fetched_at = fetched_at.replace(tzinfo=timezone.utc)
-    return fetched_at >= now - timedelta(days=CACHE_TTL_DAYS)
+    ttl_days = 1 if entry.get("language") == "Unknown" else CACHE_TTL_DAYS
+    return fetched_at >= now - timedelta(days=ttl_days)
+
+
+def resolve_primary_language(owner: str, repo: str) -> str | None:
+    result = subprocess.run(
+        ["gh", "api", f"repos/{owner}/{repo}", "--jq", ".language"],
+        capture_output=True,
+        text=True,
+        timeout=REQUEST_TIMEOUT_SECONDS,
+    )
+    if result.returncode != 0:
+        return None
+    value = result.stdout.strip()
+    if not value or value.lower() == "null":
+        return None
+    return value
 
 
 
@@ -201,7 +217,14 @@ def resolve_language(
                 languages = {str(k): int(v) for k, v in payload.items() if isinstance(v, int)}
                 bytes_total = sum(languages.values())
                 language = max(languages, key=languages.get) if languages else "Unknown"
-                status_text = "ok" if languages else "empty"
+                status_text = "ok"
+                if not languages:
+                    primary_language = resolve_primary_language(owner, repo)
+                    if primary_language:
+                        language = primary_language
+                        status_text = "fallback_primary"
+                    else:
+                        status_text = "empty"
 
                 cache[repo_slug] = {
                     "language": language,
@@ -211,6 +234,8 @@ def resolve_language(
                     "fetched_at": now.isoformat(),
                 }
                 stats["api_calls"] += 1
+                if status_text != "ok":
+                    stats[f"api_{status_text}"] = int(stats.get(f"api_{status_text}", 0)) + 1
                 return LanguageResolution(
                     language=language,
                     status=status_text,
@@ -240,7 +265,7 @@ def resolve_language(
                     "bytes_total": 0,
                     "fetched_at": now.isoformat(),
                 }
-                stats[f"api_{status_text}"] += 1
+                stats[f"api_{status_text}"] = int(stats.get(f"api_{status_text}", 0)) + 1
                 return LanguageResolution(
                     language="Unknown",
                     status=status_text,
