@@ -1,33 +1,33 @@
 {
   "metadata": {
-    "generated_at": "2026-06-03T20:34:13.834554+00:00",
+    "generated_at": "2026-06-03T21:21:12.169230+00:00",
     "source_url": "https://raw.githubusercontent.com/arinhadebackend/arinhadebackend.github.io/2026-preview/results-preview.json",
     "schema_version": "1.0",
     "metrics_note": "average_* are arithmetic means over repository entries; weighted_* rates are weighted by expected_total when available; p99_p99_ms is percentile across per-repository p99 values.",
     "processing_stats": {
-      "projects_seen": 288,
-      "api_calls": 282,
-      "scored_projects": 288,
-      "cache_hits": 6,
-      "participants": 248,
-      "unique_repositories": 282
+      "projects_seen": 290,
+      "cache_hits": 288,
+      "scored_projects": 290,
+      "api_calls": 2,
+      "participants": 250,
+      "unique_repositories": 284
     }
   },
   "global_stats": {
-    "record_count": 288,
-    "participants": 248,
+    "record_count": 290,
+    "participants": 250,
     "languages": 27,
-    "average_score": 1756.2672201626388,
-    "mean_score": 1756.2672201626388,
-    "median_score": 3258.1771916644575,
+    "average_score": 1702.606787779142,
+    "mean_score": 1702.606787779142,
+    "median_score": 3144.299583646194,
     "p99_score": 6000.0,
-    "average_p99_ms": 560.0163483355902,
-    "median_p99_ms": 56.74586998999999,
-    "p99_p99_ms": 2003.124186838,
-    "average_error_rate": 0.754171197206407,
-    "average_failure_rate": 0.1598257356294131,
-    "weighted_error_rate": 0.754171197206407,
-    "weighted_failure_rate": 0.1598257356294131
+    "average_p99_ms": 570.0364774282758,
+    "median_p99_ms": 58.64063564999999,
+    "p99_p99_ms": 2003.122293386,
+    "average_error_rate": 0.7687869086719094,
+    "average_failure_rate": 0.16269034779748612,
+    "weighted_error_rate": 0.7687869086719092,
+    "weighted_failure_rate": 0.16269034779748612
   },
   "filters": {
     "languages": [
@@ -121,6 +121,7 @@
       "RenanOfugi",
       "RuanMart",
       "RuanPabloCR",
+      "SCAPUTO88",
       "SergioTEC",
       "Shobon03",
       "SmookeyDev",
@@ -152,6 +153,7 @@
       "bmtec",
       "breno5g",
       "brunonunestx",
+      "carlosmms1",
       "carlsonsantana",
       "ceelsoin",
       "chagas42",
@@ -538,9 +540,9 @@
       "mean_score": 2935.617515485398,
       "median_score": 2935.6175154853977,
       "p99_score": 5938.712350309708,
-      "average_p99_ms": 1.09061835,
-      "median_p99_ms": 1.09061835,
-      "p99_p99_ms": 1.3400419229999998,
+      "average_p99_ms": 0.8528534199999992,
+      "median_p99_ms": 0.8528534199999992,
+      "p99_p99_ms": 1.3352866243999997,
       "average_error_rate": 0.6643297138311844,
       "average_failure_rate": 0.22144323794372814,
       "weighted_error_rate": 0.6643297138311844,
@@ -550,7 +552,7 @@
         "false_positive_detections": 0,
         "false_negative_detections": 23942,
         "true_positive_detections": 23942,
-        "true_negative_detections": 60233
+        "true_negative_detections": 60234
       }
     },
     {
@@ -650,30 +652,6 @@
       }
     },
     {
-      "language": "Go",
-      "sample_count": 61,
-      "repository_count": 60,
-      "participant_count": 59,
-      "average_score": 2254.0667358864685,
-      "mean_score": 2254.0667358864685,
-      "median_score": 3345.9571639560636,
-      "p99_score": 6000.0,
-      "average_p99_ms": 400.7597962611476,
-      "median_p99_ms": 14.277971139999998,
-      "p99_p99_ms": 2003.155459874,
-      "average_error_rate": 0.6246839532579244,
-      "average_failure_rate": 0.13399347460541242,
-      "weighted_error_rate": 0.6246839532579244,
-      "weighted_failure_rate": 0.13399347460541242,
-      "telemetry_totals": {
-        "http_errors": 138755,
-        "false_positive_detections": 9775,
-        "false_negative_detections": 49589,
-        "true_positive_detections": 1222837,
-        "true_negative_detections": 1590361
-      }
-    },
-    {
       "language": "Rust",
       "sample_count": 60,
       "repository_count": 58,
@@ -682,7 +660,7 @@
       "mean_score": 2186.28116847098,
       "median_score": 3646.2817293202033,
       "p99_score": 6000.0,
-      "average_p99_ms": 549.3025204696665,
+      "average_p99_ms": 549.303084994,
       "median_p99_ms": 42.376509835,
       "p99_p99_ms": 2003.0437423358999,
       "average_error_rate": 0.6993372765291708,
@@ -695,6 +673,30 @@
         "false_negative_detections": 31334,
         "true_positive_detections": 1106183,
         "true_negative_detections": 1427647
+      }
+    },
+    {
+      "language": "Go",
+      "sample_count": 62,
+      "repository_count": 61,
+      "participant_count": 60,
+      "average_score": 2120.9366272431384,
+      "mean_score": 2120.9366272431384,
+      "median_score": 3268.0098335989596,
+      "p99_score": 6000.0,
+      "average_p99_ms": 426.58705067370977,
+      "median_p99_ms": 18.97677363,
+      "p99_p99_ms": 2003.1486322979,
+      "average_error_rate": 0.6897454440232266,
+      "average_failure_rate": 0.14685969275693803,
+      "weighted_error_rate": 0.6897454440232265,
+      "weighted_failure_rate": 0.14685969275693803,
+      "telemetry_totals": {
+        "http_errors": 151755,
+        "false_positive_detections": 9775,
+        "false_negative_detections": 49589,
+        "true_positive_detections": 1223145,
+        "true_negative_detections": 1591006
       }
     },
     {
@@ -726,23 +728,23 @@
       "sample_count": 17,
       "repository_count": 17,
       "participant_count": 16,
-      "average_score": 1196.6396937220154,
-      "mean_score": 1196.6396937220154,
+      "average_score": 1198.942695638053,
+      "mean_score": 1198.942695638053,
       "median_score": 1323.7216424634007,
       "p99_score": 5648.579072560534,
-      "average_p99_ms": 575.2909104529414,
+      "average_p99_ms": 575.2929019158826,
       "median_p99_ms": 129.78050175999994,
       "p99_p99_ms": 2001.959822624,
-      "average_error_rate": 0.3867651204419789,
-      "average_failure_rate": 0.08148697513789309,
-      "weighted_error_rate": 0.3867651204419789,
-      "weighted_failure_rate": 0.0814869751378931,
+      "average_error_rate": 0.38675750528335573,
+      "average_failure_rate": 0.08148585749083426,
+      "weighted_error_rate": 0.38675750528335573,
+      "weighted_failure_rate": 0.08148585749083427,
       "telemetry_totals": {
         "http_errors": 48933,
-        "false_positive_detections": 2657,
-        "false_negative_detections": 3700,
-        "true_positive_detections": 335449,
-        "true_negative_detections": 423694
+        "false_positive_detections": 2659,
+        "false_negative_detections": 3697,
+        "true_positive_detections": 335452,
+        "true_negative_detections": 423691
       }
     },
     {
@@ -750,23 +752,23 @@
       "sample_count": 27,
       "repository_count": 27,
       "participant_count": 25,
-      "average_score": 1172.0454935603072,
-      "mean_score": 1172.0454935603072,
+      "average_score": 1168.7809756543288,
+      "mean_score": 1168.7809756543288,
       "median_score": 3395.2381747358877,
       "p99_score": 6000.0,
-      "average_p99_ms": 680.7353832337038,
+      "average_p99_ms": 681.555319028889,
       "median_p99_ms": 80.54615559999998,
       "p99_p99_ms": 2003.181937124,
-      "average_error_rate": 1.0236022406425047,
+      "average_error_rate": 1.0236022417460269,
       "average_failure_rate": 0.21598315286182448,
-      "weighted_error_rate": 1.0236022406425045,
+      "weighted_error_rate": 1.0236022417460269,
       "weighted_failure_rate": 0.21598315286182448,
       "telemetry_totals": {
         "http_errors": 100076,
         "false_positive_detections": 2653,
         "false_negative_detections": 32470,
-        "true_positive_detections": 467835,
-        "true_negative_detections": 625971
+        "true_positive_detections": 467834,
+        "true_negative_detections": 625969
       }
     },
     {
@@ -866,30 +868,6 @@
       }
     },
     {
-      "language": "JavaScript",
-      "sample_count": 5,
-      "repository_count": 5,
-      "participant_count": 5,
-      "average_score": -107.5675361094558,
-      "mean_score": -107.5675361094558,
-      "median_score": 785.6134243941356,
-      "p99_score": 2757.589614214719,
-      "average_p99_ms": 948.9050717100001,
-      "median_p99_ms": 732.2292249099997,
-      "p99_p99_ms": 1978.0695982328002,
-      "average_error_rate": 1.0172881915969225,
-      "average_failure_rate": 0.21098187431806825,
-      "weighted_error_rate": 1.0172881915969225,
-      "weighted_failure_rate": 0.21098187431806828,
-      "telemetry_totals": {
-        "http_errors": 49937,
-        "false_positive_detections": 2263,
-        "false_negative_detections": 512,
-        "true_positive_detections": 90649,
-        "true_negative_detections": 112302
-      }
-    },
-    {
       "language": "Jupyter Notebook",
       "sample_count": 3,
       "repository_count": 3,
@@ -911,6 +889,30 @@
         "false_negative_detections": 528,
         "true_positive_detections": 58483,
         "true_negative_detections": 73457
+      }
+    },
+    {
+      "language": "JavaScript",
+      "sample_count": 6,
+      "repository_count": 6,
+      "participant_count": 6,
+      "average_score": -1089.6396134245465,
+      "mean_score": -1089.6396134245465,
+      "median_score": 589.5656286861431,
+      "p99_score": 2744.1966993630995,
+      "average_p99_ms": 1124.4359098866669,
+      "median_p99_ms": 1071.4216303650003,
+      "p99_p99_ms": 2002.0712747315,
+      "average_error_rate": 1.029162120764653,
+      "average_failure_rate": 0.21226972859839022,
+      "weighted_error_rate": 1.029162120764653,
+      "weighted_failure_rate": 0.21226972859839024,
+      "telemetry_totals": {
+        "http_errors": 57472,
+        "false_positive_detections": 2291,
+        "false_negative_detections": 543,
+        "true_positive_detections": 102578,
+        "true_negative_detections": 127501
       }
     },
     {
@@ -3718,21 +3720,21 @@
       "project_name": "ninorp-python",
       "repo_url": "https://github.com/Ninorp/rinha-2026-python",
       "repo_slug": "Ninorp/rinha-2026-python",
-      "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8272",
-      "timestamp": "2026-06-03T18:23:05Z",
+      "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8304",
+      "timestamp": "2026-06-03T20:33:57Z",
       "language": "Python",
       "language_status": "ok",
-      "p99_ms": 4.206964619999997,
-      "final_score": 4530.596394729882,
-      "failure_rate": 0.001184,
-      "error_rate": 0.0017758375108677556,
+      "p99_ms": 4.240819490000001,
+      "final_score": 4569.747427302518,
+      "failure_rate": 0.001165,
+      "error_rate": 0.001646379814273558,
       "expected_total": 54100.0,
       "telemetry": {
         "http_errors": 0,
-        "false_positive_detections": 48,
-        "false_negative_detections": 16,
-        "true_positive_detections": 23926,
-        "true_negative_detections": 30069
+        "false_positive_detections": 50,
+        "false_negative_detections": 13,
+        "true_positive_detections": 23929,
+        "true_negative_detections": 30066
       }
     },
     {
@@ -5654,11 +5656,11 @@
       "project_name": "sl4ureano",
       "repo_url": "https://github.com/sl4ureano/rinha2026",
       "repo_slug": "sl4ureano/rinha2026",
-      "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8297",
-      "timestamp": "2026-06-03T20:04:57Z",
+      "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8316",
+      "timestamp": "2026-06-03T21:08:18Z",
       "language": "Rust",
       "language_status": "ok",
-      "p99_ms": 0.46917750000000036,
+      "p99_ms": 0.50304896,
       "final_score": 6000.0,
       "failure_rate": 0.0,
       "error_rate": 0.0,
@@ -5852,11 +5854,11 @@
       "project_name": "rinha-backend-2026-asm",
       "repo_url": "https://github.com/vinicius-piassa/rinha-backend-2026-asm",
       "repo_slug": "vinicius-piassa/rinha-backend-2026-asm",
-      "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8303",
-      "timestamp": "2026-06-03T20:31:13Z",
+      "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8308",
+      "timestamp": "2026-06-03T20:53:59Z",
       "language": "Assembly",
       "language_status": "ok",
-      "p99_ms": 0.8361045000000001,
+      "p99_ms": 0.3605746399999987,
       "final_score": 6000.0,
       "failure_rate": 0.0,
       "error_rate": 0.0,
@@ -5866,7 +5868,7 @@
         "false_positive_detections": 0,
         "false_negative_detections": 0,
         "true_positive_detections": 23942,
-        "true_negative_detections": 30116
+        "true_negative_detections": 30117
       }
     },
     {
@@ -7106,21 +7108,21 @@
       "project_name": "andrebsoares-dotnet",
       "repo_url": "https://github.com/andrebsoares/rinha-de-backend-2026-andre-dotnet",
       "repo_slug": "andrebsoares/rinha-de-backend-2026-andre-dotnet",
-      "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8128",
-      "timestamp": "2026-06-03T03:35:35Z",
+      "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8320",
+      "timestamp": "2026-06-03T21:20:45Z",
       "language": "C#",
       "language_status": "ok",
-      "p99_ms": 98.38502486999991,
-      "final_score": 3563.9346238443823,
+      "p99_ms": 120.52329133999984,
+      "final_score": 3475.7926403829633,
       "failure_rate": 0.000278,
-      "error_rate": 0.000536659387838188,
+      "error_rate": 0.0005366891829369852,
       "expected_total": 54100.0,
       "telemetry": {
         "http_errors": 0,
         "false_positive_detections": 8,
         "false_negative_detections": 7,
-        "true_positive_detections": 23923,
-        "true_negative_detections": 30100
+        "true_positive_detections": 23922,
+        "true_negative_detections": 30098
       }
     },
     {
@@ -7297,6 +7299,50 @@
         "false_negative_detections": 5,
         "true_positive_detections": 12790,
         "true_negative_detections": 16213
+      }
+    },
+    {
+      "participant": "SCAPUTO88",
+      "project_name": "scaputo88-go-puro",
+      "repo_url": "https://github.com/SCAPUTO88/rinha-2026-go-puro",
+      "repo_slug": "SCAPUTO88/rinha-2026-go-puro",
+      "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8318",
+      "timestamp": "2026-06-03T21:18:00Z",
+      "language": "Go",
+      "language_status": "ok",
+      "p99_ms": 2002.04956984,
+      "final_score": -6000.0,
+      "failure_rate": 0.931699,
+      "error_rate": 4.658496380706658,
+      "expected_total": 54100.0,
+      "telemetry": {
+        "http_errors": 13000,
+        "false_positive_detections": 0,
+        "false_negative_detections": 0,
+        "true_positive_detections": 308,
+        "true_negative_detections": 645
+      }
+    },
+    {
+      "participant": "carlosmms1",
+      "project_name": "cmms-python",
+      "repo_url": "https://github.com/carlosmms1/fraudetector",
+      "repo_slug": "carlosmms1/fraudetector",
+      "issue_url": "https://github.com/zanfranceschi/rinha-de-backend-2026/issues/8317",
+      "timestamp": "2026-06-03T21:15:08Z",
+      "language": "JavaScript",
+      "language_status": "ok",
+      "p99_ms": 2002.09010077,
+      "final_score": -6000.0,
+      "failure_rate": 0.218709,
+      "error_rate": 1.0885317666033063,
+      "expected_total": 54100.0,
+      "telemetry": {
+        "http_errors": 7535,
+        "false_positive_detections": 28,
+        "false_negative_detections": 31,
+        "true_positive_detections": 11929,
+        "true_negative_detections": 15199
       }
     }
   ]

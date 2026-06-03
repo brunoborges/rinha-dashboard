@@ -681,6 +681,16 @@
       },
       "status": "ok"
     },
+    "SCAPUTO88/rinha-2026-go-puro": {
+      "bytes_total": 83882,
+      "fetched_at": "2026-06-03T21:21:12.169230+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 1562,
+        "Go": 82320
+      },
+      "status": "ok"
+    },
     "SergioTEC/rinha-de-backend-2026": {
       "bytes_total": 76461,
       "fetched_at": "2026-06-03T20:34:13.834554+00:00",
@@ -1107,6 +1117,17 @@
       "languages": {
         "Dockerfile": 963,
         "Zig": 68030
+      },
+      "status": "ok"
+    },
+    "carlosmms1/fraudetector": {
+      "bytes_total": 25762,
+      "fetched_at": "2026-06-03T21:21:12.169230+00:00",
+      "language": "JavaScript",
+      "languages": {
+        "Dockerfile": 572,
+        "JavaScript": 19100,
+        "Python": 6090
       },
       "status": "ok"
     },
@@ -3252,5 +3273,5 @@
       "status": "ok"
     }
   },
-  "updated_at": "2026-06-03T20:37:06.349970+00:00"
+  "updated_at": "2026-06-03T21:21:12.986201+00:00"
 }
