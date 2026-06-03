@@ -1,0 +1,930 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rinha 2026 Language Telemetry Dashboard</title>
+    <script>
+      (() => {
+        const param = new URLSearchParams(window.location.search).get("clawpilotTheme");
+        const theme =
+          param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+      })();
+    </script>
+    <style>
+      :root {
+        color-scheme: light;
+        --cp-bg: #f7f4ef;
+        --cp-bg-elevated: #fcfbf8;
+        --cp-surface: #ffffff;
+        --cp-surface-soft: #f5f5f5;
+        --cp-border: #dedede;
+        --cp-border-strong: #919191;
+        --cp-text: #242424;
+        --cp-text-muted: #5c5c5c;
+        --cp-text-soft: #6f6f6f;
+        --cp-accent: #b11f4b;
+        --cp-accent-hover: #9a1a41;
+        --cp-accent-soft: rgba(177, 31, 75, 0.08);
+        --cp-accent-fg: #ffffff;
+        --cp-success: #16a34a;
+        --cp-danger: #dc2626;
+        --cp-warning: #f59e0b;
+        --cp-link: #0078d4;
+        --cp-shadow: 0 18px 48px rgba(0, 0, 0, 0.12);
+        --cp-overlay: rgba(255, 255, 255, 0.8);
+        --cp-panel: rgba(255, 255, 255, 0.86);
+        --cp-panel-strong: rgba(255, 255, 255, 0.96);
+        --cp-sheen: rgba(255, 255, 255, 0.55);
+        --cp-highlight: rgba(177, 31, 75, 0.12);
+      }
+      html[data-theme="dark"] {
+        color-scheme: dark;
+        --cp-bg: #3d3b3a;
+        --cp-bg-elevated: #343231;
+        --cp-surface: #292929;
+        --cp-surface-soft: #2e2e2e;
+        --cp-border: #474747;
+        --cp-border-strong: #5f5f5f;
+        --cp-text: #dedede;
+        --cp-text-muted: #919191;
+        --cp-text-soft: #b0b0b0;
+        --cp-accent: #fd8ea1;
+        --cp-accent-hover: #fb7b91;
+        --cp-accent-soft: rgba(253, 142, 161, 0.14);
+        --cp-accent-fg: #1a1a1a;
+        --cp-success: #4ade80;
+        --cp-danger: #f87171;
+        --cp-warning: #fbbf24;
+        --cp-link: #4da6ff;
+        --cp-shadow: 0 18px 48px rgba(0, 0, 0, 0.32);
+        --cp-overlay: rgba(41, 41, 41, 0.88);
+        --cp-panel: rgba(41, 41, 41, 0.72);
+        --cp-panel-strong: rgba(41, 41, 41, 0.96);
+        --cp-sheen: rgba(255, 255, 255, 0.04);
+        --cp-highlight: rgba(253, 142, 161, 0.12);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+      }
+      body {
+        background: var(--cp-bg);
+        color: var(--cp-text);
+        font-family: "Segoe UI", Aptos, Calibri, -apple-system, BlinkMacSystemFont, sans-serif;
+      }
+      main.container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 16px;
+        display: grid;
+        gap: 16px;
+      }
+      .card {
+        background: var(--cp-surface);
+        border: 1px solid var(--cp-border);
+        border-radius: 16px;
+        padding: 16px;
+        box-shadow: 0 0 2px var(--cp-border-strong), 0 1px 2px var(--cp-border);
+        width: 100%;
+        min-width: 0;
+        overflow: hidden;
+      }
+      h1,
+      h2 {
+        margin: 0 0 8px;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
+      h2 {
+        font-size: 1.1rem;
+      }
+      .muted {
+        color: var(--cp-text-muted);
+      }
+      .filters {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 12px;
+      }
+      label {
+        display: block;
+        font-size: 0.85rem;
+        color: var(--cp-text-muted);
+        margin-bottom: 4px;
+      }
+      input,
+      select {
+        width: 100%;
+        background: var(--cp-surface-soft);
+        color: var(--cp-text);
+        border: 1px solid var(--cp-border);
+        border-radius: 0.625rem;
+        padding: 8px;
+        font-size: 0.9rem;
+      }
+      .kpis {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+        gap: 8px;
+      }
+      .kpi {
+        border: 1px solid var(--cp-border);
+        border-radius: 0.625rem;
+        background: var(--cp-surface-soft);
+        padding: 10px;
+      }
+      .kpi .name {
+        color: var(--cp-text-muted);
+        font-size: 0.8rem;
+      }
+      .kpi .value {
+        font-size: 1.1rem;
+        font-weight: 600;
+      }
+      .tables {
+        display: grid;
+        grid-template-columns: 1.2fr 1fr;
+        gap: 16px;
+        width: 100%;
+        min-width: 0;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.85rem;
+        table-layout: auto;
+      }
+      th,
+      td {
+        text-align: left;
+        padding: 8px;
+        border-bottom: 1px solid var(--cp-border);
+        vertical-align: top;
+        word-break: break-word;
+      }
+      td.repo {
+        max-width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      th {
+        color: var(--cp-text-muted);
+        font-weight: 600;
+        background: var(--cp-surface-soft);
+        position: sticky;
+        top: 0;
+      }
+      th.sortable {
+        cursor: pointer;
+        user-select: none;
+        transition: color 0.2s;
+      }
+      th.sortable:hover {
+        color: var(--cp-text);
+      }
+      th.sortable::after {
+        content: '';
+        display: inline-block;
+        margin-left: 6px;
+        opacity: 0.4;
+        font-size: 0.75rem;
+        transition: opacity 0.2s;
+      }
+      th.sortable.asc::after {
+        content: '↑';
+        opacity: 1;
+      }
+      th.sortable.desc::after {
+        content: '↓';
+        opacity: 1;
+      }
+      .table-wrap {
+        max-height: 520px;
+        overflow-y: auto;
+        overflow-x: auto;
+        border: 1px solid var(--cp-border);
+        border-radius: 0.625rem;
+        width: 100%;
+        min-width: 0;
+      }
+      .right {
+        text-align: right;
+      }
+      a {
+        color: var(--cp-link);
+      }
+      .empty {
+        padding: 18px;
+        color: var(--cp-text-muted);
+      }
+      .mono {
+        font-family: Consolas, "Courier New", Courier, monospace;
+      }
+      .tabs {
+        display: flex;
+        gap: 4px;
+        border-bottom: 1px solid var(--cp-border);
+        margin-bottom: 16px;
+      }
+      .tab-button {
+        background: none;
+        border: none;
+        color: var(--cp-text-muted);
+        cursor: pointer;
+        padding: 12px 16px;
+        font-size: 0.9rem;
+        border-bottom: 2px solid transparent;
+        transition: color 0.2s, border-color 0.2s;
+      }
+      .tab-button:hover {
+        color: var(--cp-text);
+      }
+      .tab-button.active {
+        color: var(--cp-accent);
+        border-bottom-color: var(--cp-accent);
+      }
+      .tab-panel {
+        display: none;
+      }
+      .tab-panel.active {
+        display: block;
+      }
+      .leaderboard-search {
+        width: 100%;
+        margin-bottom: 16px;
+        padding: 8px 12px;
+        background: var(--cp-surface-soft);
+        color: var(--cp-text);
+        border: 1px solid var(--cp-border);
+        border-radius: 0.625rem;
+        font-size: 0.9rem;
+      }
+      .leaderboard-table {
+        width: 100%;
+        font-size: 0.9rem;
+        table-layout: auto;
+        border-collapse: collapse;
+      }
+      .leaderboard-table thead {
+        position: sticky;
+        top: 0;
+        background: var(--cp-surface-soft);
+      }
+      .leaderboard-table th {
+        text-align: left;
+        padding: 12px;
+        border-bottom: 1px solid var(--cp-border);
+        color: var(--cp-text-muted);
+        font-weight: 600;
+        font-size: 0.8rem;
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+        user-select: none;
+        white-space: nowrap;
+      }
+      .leaderboard-table th:hover {
+        color: var(--cp-text);
+      }
+      .leaderboard-table th.sortable::after {
+        content: '';
+        display: inline-block;
+        margin-left: 6px;
+        opacity: 0;
+        transition: opacity 0.15s;
+      }
+      .leaderboard-table th.sortable.asc::after {
+        content: '↑';
+        opacity: 1;
+      }
+      .leaderboard-table th.sortable.desc::after {
+        content: '↓';
+        opacity: 1;
+      }
+      .leaderboard-table th.numeric {
+        text-align: right;
+      }
+      .leaderboard-table td {
+        padding: 10px 12px;
+        border-bottom: 1px solid var(--cp-border);
+        vertical-align: middle;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .leaderboard-table tbody tr:hover {
+        background: var(--cp-surface-soft);
+      }
+      .leaderboard-table td.numeric {
+        text-align: right;
+        font-family: Consolas, "Courier New", Courier, monospace;
+        white-space: nowrap;
+      }
+      .leaderboard-table td.rank {
+        color: var(--cp-text-muted);
+        width: 50px;
+        text-align: center;
+      }
+      .leaderboard-table td.name {
+        word-break: break-word;
+      }
+      .leaderboard-table td.name a {
+        color: var(--cp-link);
+        text-decoration: none;
+      }
+      .leaderboard-table td.name a:hover {
+        text-decoration: underline;
+      }
+      @media (max-width: 1100px) {
+        .tables {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <section class="card">
+        <h1>Rinha 2026 — Per Language Telemetry Ranking</h1>
+        <div id="meta" class="muted">Loading...</div>
+      </section>
+
+      <section class="card">
+        <h2>Filters</h2>
+        <div class="filters">
+          <div>
+            <label for="languageFilter">Languages</label>
+            <select id="languageFilter" multiple size="6"></select>
+          </div>
+          <div>
+            <label for="participantFilter">Participant</label>
+            <select id="participantFilter">
+              <option value="">All participants</option>
+            </select>
+          </div>
+          <div>
+            <label for="repoSearch">Repository search</label>
+            <input id="repoSearch" type="text" placeholder="owner/repo or project name" />
+          </div>
+          <div>
+            <label for="scoreMin">Min score</label>
+            <input id="scoreMin" type="number" step="0.01" />
+          </div>
+          <div>
+            <label for="scoreMax">Max score</label>
+            <input id="scoreMax" type="number" step="0.01" />
+          </div>
+          <div>
+            <label for="minSamples">Min language samples</label>
+            <input id="minSamples" type="number" value="1" min="1" />
+          </div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Global KPIs (filtered)</h2>
+        <div id="kpis" class="kpis"></div>
+      </section>
+
+      <section class="card">
+        <div class="tabs">
+          <button class="tab-button active" data-tab="analysis">Analysis View</button>
+          <button class="tab-button" data-tab="leaderboard">Leaderboard</button>
+        </div>
+
+        <div id="analysis-tab" class="tab-panel active">
+          <div class="tables">
+            <article class="card">
+              <h2>Language Ranking</h2>
+              <div class="table-wrap">
+                <table id="languageTable">
+                  <thead>
+                    <tr>
+                      <th>#</th>
+                      <th class="sortable" data-sort="language">Language</th>
+                      <th class="right sortable" data-sort="repos">Repos</th>
+                      <th class="right sortable" data-sort="top_score">Top Score</th>
+                      <th class="right sortable" data-sort="best_p99">Best P99 (ms)</th>
+                      <th class="right sortable" data-sort="avg_score">Avg Score</th>
+                      <th class="right sortable" data-sort="avg_p99">Avg P99 (ms)</th>
+                      <th class="right sortable" data-sort="error_rate">Weighted Err Rate</th>
+                      <th class="right sortable" data-sort="failure_rate">Weighted Fail Rate</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </article>
+            <article class="card">
+              <h2>Repository Telemetry</h2>
+              <div class="table-wrap">
+                <table id="repoTable">
+                  <thead>
+                    <tr>
+                      <th class="sortable" data-sort="repo">Repo</th>
+                      <th class="sortable" data-sort="language">Language</th>
+                      <th class="right sortable" data-sort="score">Score</th>
+                      <th class="right sortable" data-sort="p99">p99 (ms)</th>
+                      <th class="right sortable" data-sort="error">Error</th>
+                      <th class="right sortable" data-sort="failure">Failure</th>
+                      <th class="right sortable" data-sort="http_errors">HTTP err</th>
+                    </tr>
+                  </thead>
+                  <tbody></tbody>
+                </table>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div id="leaderboard-tab" class="tab-panel">
+          <input id="leaderboardSearch" class="leaderboard-search" type="search" placeholder="Search repositories..." />
+          <div class="table-wrap">
+            <table class="leaderboard-table" id="leaderboardTable">
+              <thead>
+                <tr>
+                  <th class="numeric sortable" data-sort="rank">#</th>
+                  <th class="sortable" data-sort="name">Repository</th>
+                  <th class="sortable" data-sort="language">Language</th>
+                  <th class="numeric sortable" data-sort="score">Score</th>
+                  <th class="numeric sortable" data-sort="p99">P99 (ms)</th>
+                  <th class="numeric sortable" data-sort="error">Error Rate</th>
+                  <th class="numeric sortable" data-sort="failure">Failure Rate</th>
+                  <th class="sortable hide-mobile" data-sort="participant">Participant</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script>
+      const state = {
+        payload: null,
+        records: [],
+        repoTableSort: { column: "score", direction: "desc", secondary: "p99" },
+        languageTableSort: { column: "top_score", direction: "desc" },
+      };
+
+      const fmt = {
+        num(v, decimals = 2) {
+          return v == null || Number.isNaN(v) ? "-" : Number(v).toFixed(decimals);
+        },
+        pct(v) {
+          return v == null || Number.isNaN(v) ? "-" : `${(Number(v) * 100).toFixed(2)}%`;
+        },
+      };
+
+      function quantile(values, q) {
+        const sorted = values.filter((v) => Number.isFinite(v)).sort((a, b) => a - b);
+        if (!sorted.length) return null;
+        if (sorted.length === 1) return sorted[0];
+        const idx = (sorted.length - 1) * q;
+        const lo = Math.floor(idx);
+        const hi = Math.ceil(idx);
+        if (lo === hi) return sorted[lo];
+        const frac = idx - lo;
+        return sorted[lo] + (sorted[hi] - sorted[lo]) * frac;
+      }
+
+      function mean(values) {
+        const clean = values.filter((v) => Number.isFinite(v));
+        if (!clean.length) return null;
+        return clean.reduce((sum, cur) => sum + cur, 0) / clean.length;
+      }
+
+      function weightedMean(pairs) {
+        const clean = pairs.filter(([value, weight]) => Number.isFinite(value) && Number.isFinite(weight) && weight > 0);
+        if (!clean.length) return null;
+        const weighted = clean.reduce((sum, [value, weight]) => sum + value * weight, 0);
+        const total = clean.reduce((sum, [, weight]) => sum + weight, 0);
+        return total > 0 ? weighted / total : null;
+      }
+
+      function selectedValues(select) {
+        return new Set(Array.from(select.selectedOptions).map((opt) => opt.value));
+      }
+
+      function computeLanguageRanking(records, minSamples) {
+        const grouped = new Map();
+        for (const record of records) {
+          const language = record.language || "Unknown";
+          if (!grouped.has(language)) grouped.set(language, []);
+          grouped.get(language).push(record);
+        }
+        const rows = [];
+        for (const [language, rowsForLanguage] of grouped.entries()) {
+          if (rowsForLanguage.length < minSamples) continue;
+          const scores = rowsForLanguage.map((r) => r.final_score).filter(Number.isFinite);
+          const p99s = rowsForLanguage.map((r) => r.p99_ms).filter(Number.isFinite);
+          const errorRates = rowsForLanguage.map((r) => r.error_rate).filter(Number.isFinite);
+          const failureRates = rowsForLanguage.map((r) => r.failure_rate).filter(Number.isFinite);
+          const errorPairs = rowsForLanguage
+            .filter((r) => Number.isFinite(r.error_rate) && Number.isFinite(r.expected_total))
+            .map((r) => [r.error_rate, r.expected_total]);
+          const failurePairs = rowsForLanguage
+            .filter((r) => Number.isFinite(r.failure_rate) && Number.isFinite(r.expected_total))
+            .map((r) => [r.failure_rate, r.expected_total]);
+          rows.push({
+            language,
+            repository_count: new Set(rowsForLanguage.map((r) => r.repo_slug).filter(Boolean)).size,
+            top_score: scores.length ? Math.max(...scores) : null,
+            best_p99_ms: p99s.length ? Math.min(...p99s) : null,
+            average_score: mean(scores),
+            average_p99_ms: mean(p99s),
+            weighted_error_rate: weightedMean(errorPairs),
+            weighted_failure_rate: weightedMean(failurePairs),
+            sample_count: rowsForLanguage.length,
+          });
+        }
+        return rows;
+      }
+
+      function applyFilters() {
+        const languageSet = selectedValues(document.getElementById("languageFilter"));
+        const participant = document.getElementById("participantFilter").value.trim();
+        const search = document.getElementById("repoSearch").value.trim().toLowerCase();
+        const scoreMin = parseFloat(document.getElementById("scoreMin").value);
+        const scoreMax = parseFloat(document.getElementById("scoreMax").value);
+        const minSamples = Math.max(1, parseInt(document.getElementById("minSamples").value || "1", 10));
+
+        const filtered = state.records.filter((record) => {
+          if (languageSet.size && !languageSet.has(record.language)) return false;
+          if (participant && record.participant !== participant) return false;
+          if (search) {
+            const hay = `${record.repo_slug || ""} ${record.project_name || ""}`.toLowerCase();
+            if (!hay.includes(search)) return false;
+          }
+          if (Number.isFinite(scoreMin) && !(Number.isFinite(record.final_score) && record.final_score >= scoreMin)) {
+            return false;
+          }
+          if (Number.isFinite(scoreMax) && !(Number.isFinite(record.final_score) && record.final_score <= scoreMax)) {
+            return false;
+          }
+          return true;
+        });
+
+        renderKpis(filtered);
+        renderLanguageTable(computeLanguageRanking(filtered, minSamples));
+        renderRepoTable(filtered);
+      }
+
+      function renderKpis(records) {
+        const scores = records.map((r) => r.final_score).filter(Number.isFinite);
+        const p99s = records.map((r) => r.p99_ms).filter(Number.isFinite);
+        const errorRates = records.map((r) => r.error_rate).filter(Number.isFinite);
+        const failureRates = records.map((r) => r.failure_rate).filter(Number.isFinite);
+        const errorPairs = records
+          .filter((r) => Number.isFinite(r.error_rate) && Number.isFinite(r.expected_total))
+          .map((r) => [r.error_rate, r.expected_total]);
+        const failurePairs = records
+          .filter((r) => Number.isFinite(r.failure_rate) && Number.isFinite(r.expected_total))
+          .map((r) => [r.failure_rate, r.expected_total]);
+
+        const items = [
+          ["Repositories", records.length.toString()],
+          ["Languages", new Set(records.map((r) => r.language)).size.toString()],
+          ["Avg Score", fmt.num(mean(scores))],
+          ["Median Score", fmt.num(quantile(scores, 0.5))],
+          ["Top Score", fmt.num(scores.length ? Math.max(...scores) : null)],
+          ["Avg P99 (ms)", fmt.num(mean(p99s), 3)],
+          ["Median P99 (ms)", fmt.num(quantile(p99s, 0.5), 3)],
+          ["Best P99 (ms)", fmt.num(p99s.length ? Math.min(...p99s) : null, 3)],
+          ["Avg Error Rate", fmt.pct(mean(errorRates))],
+          ["Avg Failure Rate", fmt.pct(mean(failureRates))],
+        ];
+        const root = document.getElementById("kpis");
+        root.innerHTML = items
+          .map(
+            ([name, value]) =>
+              `<div class="kpi"><div class="name">${name}</div><div class="value mono">${value}</div></div>`,
+          )
+          .join("");
+      }
+
+      function renderLanguageTable(rows) {
+        const tbody = document.querySelector("#languageTable tbody");
+        if (!rows.length) {
+          tbody.innerHTML = `<tr><td colspan="9" class="empty">No data with current filters.</td></tr>`;
+          return;
+        }
+        tbody.innerHTML = rows
+          .map(
+            (row, index) => `
+          <tr>
+            <td>${index + 1}</td>
+            <td>${row.language}</td>
+            <td class="right mono">${row.repository_count}</td>
+            <td class="right mono">${fmt.num(row.top_score)}</td>
+            <td class="right mono">${fmt.num(row.best_p99_ms, 3)}</td>
+            <td class="right mono">${fmt.num(row.average_score)}</td>
+            <td class="right mono">${fmt.num(row.average_p99_ms, 3)}</td>
+            <td class="right mono">${fmt.pct(row.weighted_error_rate)}</td>
+            <td class="right mono">${fmt.pct(row.weighted_failure_rate)}</td>
+          </tr>`,
+          )
+          .join("");
+        updateLanguageTableSort();
+      }
+
+      function renderRepoTable(records) {
+        const tbody = document.querySelector("#repoTable tbody");
+        if (!records.length) {
+          tbody.innerHTML = `<tr><td colspan="7" class="empty">No repositories with current filters.</td></tr>`;
+          return;
+        }
+        const rows = records.slice().slice(0, 300);
+        tbody.innerHTML = rows
+          .map((record) => {
+            const repoLabel = record.repo_slug || record.project_name || "-";
+            const repoLink = record.repo_url
+              ? `<a href="${record.repo_url}" target="_blank" rel="noreferrer">${repoLabel}</a>`
+              : repoLabel;
+            return `
+            <tr>
+              <td class="repo" title="${repoLabel}">${repoLink}</td>
+              <td>${record.language || "-"}</td>
+              <td class="right mono">${fmt.num(record.final_score)}</td>
+              <td class="right mono">${fmt.num(record.p99_ms, 3)}</td>
+              <td class="right mono">${fmt.pct(record.error_rate)}</td>
+              <td class="right mono">${fmt.pct(record.failure_rate)}</td>
+              <td class="right mono">${record.telemetry?.http_errors ?? "-"}</td>
+            </tr>`;
+          })
+          .join("");
+        updateRepoTableSort();
+      }
+
+      function initFilters(payload) {
+        const languageFilter = document.getElementById("languageFilter");
+        languageFilter.innerHTML = payload.filters.languages
+          .map((language) => `<option value="${language}">${language}</option>`)
+          .join("");
+
+        const participantFilter = document.getElementById("participantFilter");
+        participantFilter.innerHTML += payload.filters.participants
+          .map((participant) => `<option value="${participant}">${participant}</option>`)
+          .join("");
+
+        if (Number.isFinite(payload.filters.score_min)) {
+          document.getElementById("scoreMin").placeholder = payload.filters.score_min.toFixed(2);
+        }
+        if (Number.isFinite(payload.filters.score_max)) {
+          document.getElementById("scoreMax").placeholder = payload.filters.score_max.toFixed(2);
+        }
+      }
+
+      function setupTableSorting() {
+        document.querySelectorAll("th.sortable").forEach((th) => {
+          th.addEventListener("click", () => {
+            const tableId = th.closest("table").id;
+            const sortColumn = th.dataset.sort;
+
+            if (tableId === "repoTable") {
+              if (state.repoTableSort.column === sortColumn) {
+                state.repoTableSort.direction = state.repoTableSort.direction === "desc" ? "asc" : "desc";
+              } else {
+                state.repoTableSort.column = sortColumn;
+                state.repoTableSort.direction = "desc";
+              }
+              updateRepoTableSort();
+            } else if (tableId === "languageTable") {
+              if (state.languageTableSort.column === sortColumn) {
+                state.languageTableSort.direction = state.languageTableSort.direction === "desc" ? "asc" : "desc";
+              } else {
+                state.languageTableSort.column = sortColumn;
+                state.languageTableSort.direction = "desc";
+              }
+              updateLanguageTableSort();
+            }
+          });
+        });
+      }
+
+      function updateRepoTableSort() {
+        const tbody = document.querySelector("#repoTable tbody");
+        const rows = Array.from(tbody.querySelectorAll("tr"));
+        const sort = state.repoTableSort;
+
+        rows.sort((aRow, bRow) => {
+          let aVal, bVal;
+
+          if (sort.column === "repo") {
+            aVal = aRow.cells[0].textContent.trim().toLowerCase();
+            bVal = bRow.cells[0].textContent.trim().toLowerCase();
+          } else if (sort.column === "language") {
+            aVal = aRow.cells[1].textContent.trim().toLowerCase();
+            bVal = bRow.cells[1].textContent.trim().toLowerCase();
+          } else if (sort.column === "score") {
+            aVal = parseFloat(aRow.cells[2].textContent) || -Infinity;
+            bVal = parseFloat(bRow.cells[2].textContent) || -Infinity;
+          } else if (sort.column === "p99") {
+            aVal = parseFloat(aRow.cells[3].textContent) || Infinity;
+            bVal = parseFloat(bRow.cells[3].textContent) || Infinity;
+          } else if (sort.column === "error") {
+            aVal = parseFloat(aRow.cells[4].textContent) || 0;
+            bVal = parseFloat(bRow.cells[4].textContent) || 0;
+          } else if (sort.column === "failure") {
+            aVal = parseFloat(aRow.cells[5].textContent) || 0;
+            bVal = parseFloat(bRow.cells[5].textContent) || 0;
+          } else if (sort.column === "http_errors") {
+            aVal = parseInt(aRow.cells[6].textContent) || 0;
+            bVal = parseInt(bRow.cells[6].textContent) || 0;
+          }
+
+          let cmp = 0;
+          if (typeof aVal === "string") {
+            cmp = aVal.localeCompare(bVal);
+          } else {
+            cmp = aVal < bVal ? -1 : aVal > bVal ? 1 : 0;
+          }
+
+          return sort.direction === "desc" ? -cmp : cmp;
+        });
+
+        rows.forEach((row) => tbody.appendChild(row));
+        updateSortIndicators("#repoTable");
+      }
+
+      function updateLanguageTableSort() {
+        const tbody = document.querySelector("#languageTable tbody");
+        const rows = Array.from(tbody.querySelectorAll("tr"));
+        const sort = state.languageTableSort;
+
+        rows.sort((aRow, bRow) => {
+          let aVal, bVal;
+
+          if (sort.column === "language") {
+            aVal = aRow.cells[1].textContent.trim().toLowerCase();
+            bVal = bRow.cells[1].textContent.trim().toLowerCase();
+          } else if (sort.column === "repos") {
+            aVal = parseInt(aRow.cells[2].textContent) || 0;
+            bVal = parseInt(bRow.cells[2].textContent) || 0;
+          } else if (sort.column === "top_score") {
+            aVal = parseFloat(aRow.cells[3].textContent) || -Infinity;
+            bVal = parseFloat(bRow.cells[3].textContent) || -Infinity;
+          } else if (sort.column === "best_p99") {
+            aVal = parseFloat(aRow.cells[4].textContent) || Infinity;
+            bVal = parseFloat(bRow.cells[4].textContent) || Infinity;
+          } else if (sort.column === "avg_score") {
+            aVal = parseFloat(aRow.cells[5].textContent) || -Infinity;
+            bVal = parseFloat(bRow.cells[5].textContent) || -Infinity;
+          } else if (sort.column === "avg_p99") {
+            aVal = parseFloat(aRow.cells[6].textContent) || Infinity;
+            bVal = parseFloat(bRow.cells[6].textContent) || Infinity;
+          } else if (sort.column === "error_rate") {
+            aVal = parseFloat(aRow.cells[7].textContent) || 0;
+            bVal = parseFloat(bRow.cells[7].textContent) || 0;
+          } else if (sort.column === "failure_rate") {
+            aVal = parseFloat(aRow.cells[8].textContent) || 0;
+            bVal = parseFloat(bRow.cells[8].textContent) || 0;
+          }
+
+          let cmp = 0;
+          if (typeof aVal === "string") {
+            cmp = aVal.localeCompare(bVal);
+          } else {
+            cmp = aVal < bVal ? -1 : aVal > bVal ? 1 : 0;
+          }
+
+          if (cmp !== 0) return sort.direction === "desc" ? -cmp : cmp;
+
+          // Tiebreaker: when sorting by top_score, break ties with best_p99 ascending
+          if (sort.column === "top_score") {
+            const aP99 = parseFloat(aRow.cells[4].textContent) || Infinity;
+            const bP99 = parseFloat(bRow.cells[4].textContent) || Infinity;
+            return aP99 - bP99;
+          }
+          // When sorting by best_p99, break ties with top_score descending
+          if (sort.column === "best_p99") {
+            const aScore = parseFloat(aRow.cells[3].textContent) || -Infinity;
+            const bScore = parseFloat(bRow.cells[3].textContent) || -Infinity;
+            return bScore - aScore;
+          }
+
+          return 0;
+        });
+
+        rows.forEach((row) => tbody.appendChild(row));
+        updateSortIndicators("#languageTable");
+      }
+
+      function updateSortIndicators(tableSelector) {
+        const table = document.querySelector(tableSelector);
+        const sort = tableSelector === "#repoTable" ? state.repoTableSort : state.languageTableSort;
+
+        table.querySelectorAll("th.sortable").forEach((th) => {
+          th.classList.remove("asc", "desc");
+          if (th.dataset.sort === sort.column) {
+            th.classList.add(sort.direction);
+          }
+        });
+      }
+
+      function renderLeaderboard(records) {
+        const tbody = document.querySelector("#leaderboardTable tbody");
+        if (!records.length) {
+          tbody.innerHTML = `<tr><td colspan="8" class="empty">No repositories match your search.</td></tr>`;
+          return;
+        }
+
+        const sortedRecords = records
+          .slice()
+          .sort((a, b) => (b.final_score ?? -Infinity) - (a.final_score ?? -Infinity));
+
+        let rank = 1;
+        tbody.innerHTML = sortedRecords
+          .map((record, index) => {
+            const repoLabel = record.repo_slug || record.project_name || "-";
+            const repoLink = record.repo_url
+              ? `<a href="${record.repo_url}" target="_blank" rel="noreferrer">${repoLabel}</a>`
+              : repoLabel;
+            
+            if (index > 0) {
+              const prevScore = sortedRecords[index - 1].final_score;
+              const prevP99 = sortedRecords[index - 1].p99_ms;
+              if (record.final_score !== prevScore || record.p99_ms !== prevP99) {
+                rank = index + 1;
+              }
+            }
+
+            return `
+              <tr>
+                <td class="rank numeric">${rank}</td>
+                <td class="name">${repoLink}</td>
+                <td>${record.language || "-"}</td>
+                <td class="numeric mono">${fmt.num(record.final_score)}</td>
+                <td class="numeric mono">${fmt.num(record.p99_ms, 3)}</td>
+                <td class="numeric mono">${fmt.pct(record.error_rate)}</td>
+                <td class="numeric mono">${fmt.pct(record.failure_rate)}</td>
+                <td class="hide-mobile">${record.participant || "-"}</td>
+              </tr>`;
+          })
+          .join("");
+      }
+
+      function setupTabSwitching() {
+        const buttons = document.querySelectorAll(".tab-button");
+        buttons.forEach((btn) => {
+          btn.addEventListener("click", () => {
+            const tabName = btn.dataset.tab;
+            buttons.forEach((b) => b.classList.remove("active"));
+            btn.classList.add("active");
+            document.querySelectorAll(".tab-panel").forEach((panel) => panel.classList.remove("active"));
+            document.getElementById(`${tabName}-tab`).classList.add("active");
+          });
+        });
+      }
+
+      function setupLeaderboardSearch() {
+        const searchEl = document.getElementById("leaderboardSearch");
+        searchEl.addEventListener("input", (e) => {
+          const query = e.target.value.toLowerCase();
+          const filtered = state.records.filter((record) => {
+            const hay = `${record.repo_slug || ""} ${record.project_name || ""} ${record.participant || ""}`.toLowerCase();
+            return hay.includes(query);
+          });
+          renderLeaderboard(filtered);
+        });
+      }
+
+      async function load() {
+        const response = await fetch("./data/dashboard-data.json", { cache: "no-store" });
+        if (!response.ok) throw new Error(`Failed to load data: ${response.status}`);
+        const payload = await response.json();
+        state.payload = payload;
+        state.records = payload.repositories || [];
+        document.getElementById("meta").textContent =
+          `Updated ${payload.metadata.generated_at} · ` +
+          `${state.records.length} repositories · ` +
+          `${payload.filters.languages.length} languages`;
+        initFilters(payload);
+        setupTabSwitching();
+        setupLeaderboardSearch();
+        setupTableSorting();
+        renderLeaderboard(state.records);
+        document.querySelectorAll("#languageFilter, #participantFilter, #repoSearch, #scoreMin, #scoreMax, #minSamples").forEach((el) => {
+          el.addEventListener("input", applyFilters);
+          el.addEventListener("change", applyFilters);
+        });
+        applyFilters();
+      }
+
+      load().catch((error) => {
+        document.getElementById("meta").textContent = `Failed to load dashboard data: ${error.message}`;
+      });
+    </script>
+  </body>
+</html>

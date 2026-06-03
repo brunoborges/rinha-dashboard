@@ -1,0 +1,3256 @@
+{
+  "repos": {
+    "6se7en/rinha": {
+      "bytes_total": 89106,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Assembly",
+      "languages": {
+        "Assembly": 88745,
+        "Dockerfile": 361
+      },
+      "status": "ok"
+    },
+    "Acauhi99/rinha-de-backend-2026": {
+      "bytes_total": 183113,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 129726,
+        "Dockerfile": 897,
+        "JavaScript": 8147,
+        "Makefile": 321,
+        "Nix": 338,
+        "Rust": 38951,
+        "Shell": 4733
+      },
+      "status": "ok"
+    },
+    "AndDev741/rinha-de-backend-2026-java": {
+      "bytes_total": 92100,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 2563,
+        "Java": 89537
+      },
+      "status": "ok"
+    },
+    "AndreBBM/rinha-backend-2026": {
+      "bytes_total": 9704,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 982,
+        "Rust": 8722
+      },
+      "status": "ok"
+    },
+    "BGLuis/rinha-backend-2026-go-rust": {
+      "bytes_total": 50763,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Assembly": 820,
+        "Dockerfile": 3243,
+        "Go": 14946,
+        "Makefile": 2774,
+        "Rust": 24584,
+        "Shell": 4396
+      },
+      "status": "ok"
+    },
+    "BertBR/rinha-2026": {
+      "bytes_total": 129928,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "C": 461,
+        "Go": 27384,
+        "JavaScript": 2366,
+        "Makefile": 2163,
+        "Rust": 38532,
+        "Shell": 3824,
+        "TypeScript": 55198
+      },
+      "status": "ok"
+    },
+    "BoscoBecker/Rinha.Net": {
+      "bytes_total": 33649,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 23206,
+        "Dockerfile": 1282,
+        "JavaScript": 9161
+      },
+      "status": "ok"
+    },
+    "CaioDGallo/sketchy-check": {
+      "bytes_total": 78901,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "C": 15531,
+        "Dockerfile": 1448,
+        "Go": 59079,
+        "Makefile": 2843
+      },
+      "status": "ok"
+    },
+    "CarlosDanielS3/rinha-2026-bun": {
+      "bytes_total": 42779,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "C": 8612,
+        "Dockerfile": 827,
+        "TypeScript": 33340
+      },
+      "status": "ok"
+    },
+    "ChristopheNonato/rinha_fraud_api_ex": {
+      "bytes_total": 35931,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Elixir",
+      "languages": {
+        "Dockerfile": 3004,
+        "Elixir": 26519,
+        "Rust": 6408
+      },
+      "status": "ok"
+    },
+    "Cirilord/rinha-backend-2026": {
+      "bytes_total": 126403,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 98015,
+        "Dockerfile": 901,
+        "JavaScript": 7139,
+        "Makefile": 996,
+        "Python": 19352
+      },
+      "status": "ok"
+    },
+    "DanielM08/rinha-2026": {
+      "bytes_total": 12853,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "Dockerfile": 733,
+        "Makefile": 79,
+        "Python": 12041
+      },
+      "status": "ok"
+    },
+    "Demians12/rinha-de-backend-2026": {
+      "bytes_total": 188360,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "Assembly": 3301,
+        "C": 129726,
+        "Dockerfile": 1484,
+        "Go": 28888,
+        "JavaScript": 7664,
+        "Makefile": 321,
+        "Nix": 338,
+        "Shell": 16638
+      },
+      "status": "ok"
+    },
+    "DevairRestani/rinha-de-backend-2026": {
+      "bytes_total": 39001,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 38199,
+        "Dockerfile": 802
+      },
+      "status": "ok"
+    },
+    "EdnaldoLuiz/rinha-de-backend-2026-java": {
+      "bytes_total": 107250,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Java": 98516,
+        "Shell": 8734
+      },
+      "status": "ok"
+    },
+    "Fiddelis/rinha-backend-2026": {
+      "bytes_total": 43214,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "Dockerfile": 1050,
+        "JavaScript": 7664,
+        "Python": 31625,
+        "Shell": 2875
+      },
+      "status": "ok"
+    },
+    "Gabriel-br07/rinha-de-backend-2026-dotnet": {
+      "bytes_total": 66280,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 55300,
+        "Dockerfile": 2380,
+        "JavaScript": 6849,
+        "PowerShell": 1090,
+        "Shell": 661
+      },
+      "status": "ok"
+    },
+    "GabrielDantasDs/rinha-backend-2026": {
+      "bytes_total": 98884,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 90539,
+        "Dockerfile": 689,
+        "JavaScript": 7656
+      },
+      "status": "ok"
+    },
+    "GuilhermRodovalho/rinha-2026": {
+      "bytes_total": 20785,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 745,
+        "Rust": 20040
+      },
+      "status": "ok"
+    },
+    "GustavoQnt/rinha-de-backend-2026-node": {
+      "bytes_total": 520937,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "C": 129726,
+        "Dockerfile": 1344,
+        "JavaScript": 190673,
+        "Makefile": 321,
+        "Nix": 338,
+        "Rust": 193802,
+        "Shell": 4733
+      },
+      "status": "ok"
+    },
+    "GustavoZiaugra/rinha-backend-2026": {
+      "bytes_total": 49639,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 716,
+        "Python": 6009,
+        "Rust": 42914
+      },
+      "status": "ok"
+    },
+    "Hanake0/rinha-backend-2026-csharp-nativeaot": {
+      "bytes_total": 415767,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 354826,
+        "JavaScript": 1300,
+        "PowerShell": 59641
+      },
+      "status": "ok"
+    },
+    "IanLemee/rinha-be": {
+      "bytes_total": 16981,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Java": 16981
+      },
+      "status": "ok"
+    },
+    "IcaroWil/Rinha-do-Backend": {
+      "bytes_total": 41183,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 436,
+        "Rust": 39417,
+        "Shell": 1330
+      },
+      "status": "ok"
+    },
+    "IgorBrizack/rinha-de-backend-2026": {
+      "bytes_total": 36446,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 1587,
+        "Go": 26477,
+        "JavaScript": 5542,
+        "Makefile": 2840
+      },
+      "status": "ok"
+    },
+    "JaoConquista/rinha_de_backend_2026_node": {
+      "bytes_total": 12292,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "JavaScript",
+      "languages": {
+        "Dockerfile": 284,
+        "JavaScript": 12008
+      },
+      "status": "ok"
+    },
+    "JoaoMarcos160/rinha-de-backend-2026": {
+      "bytes_total": 18642,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "Dockerfile": 699,
+        "TypeScript": 17943
+      },
+      "status": "ok"
+    },
+    "JoaoVitorGirardii/rinha-2026-js": {
+      "bytes_total": 33947,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "JavaScript",
+      "languages": {
+        "Dockerfile": 296,
+        "JavaScript": 19262,
+        "Python": 14389
+      },
+      "status": "ok"
+    },
+    "JoaoVitorGirardii/rinha-2026-rust": {
+      "bytes_total": 54818,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 2650,
+        "Rust": 52168
+      },
+      "status": "ok"
+    },
+    "JoaoVitorGirardii/rinha-with-rust": {
+      "bytes_total": 32087,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 1230,
+        "Rust": 30857
+      },
+      "status": "ok"
+    },
+    "Joaopdiasventura/rinha-de-backend-2026-go": {
+      "bytes_total": 76041,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 1539,
+        "Go": 47122,
+        "JavaScript": 2892,
+        "PowerShell": 13478,
+        "Shell": 11010
+      },
+      "status": "ok"
+    },
+    "Johnny-Nascimento/rinha-de-backend": {
+      "bytes_total": 34182,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C++",
+      "languages": {
+        "C++": 30497,
+        "CMake": 465,
+        "Dockerfile": 970,
+        "JavaScript": 2250
+      },
+      "status": "ok"
+    },
+    "JordaoGustavo/rinha-backend-2026": {
+      "bytes_total": 236310,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C": 8517,
+        "C#": 215678,
+        "Dockerfile": 2637,
+        "JavaScript": 5736,
+        "Makefile": 2561,
+        "Shell": 1181
+      },
+      "status": "ok"
+    },
+    "JorgeEduardoZanin/rinha-backend-quarkus-2026": {
+      "bytes_total": 24788,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Java": 24788
+      },
+      "status": "ok"
+    },
+    "Josehbr/Rinha-de-Backend---2026": {
+      "bytes_total": 121419,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 5250,
+        "JavaScript": 10061,
+        "Rust": 99860,
+        "Shell": 6248
+      },
+      "status": "ok"
+    },
+    "JosineyJr/rdb-26": {
+      "bytes_total": 51880,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 2051,
+        "Go": 49829
+      },
+      "status": "ok"
+    },
+    "JulianySavazzi/rinha": {
+      "bytes_total": 24583,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "PHP",
+      "languages": {
+        "Dockerfile": 439,
+        "JavaScript": 7701,
+        "PHP": 16443
+      },
+      "status": "ok"
+    },
+    "JulioTsutsui/rinha-backend-2026": {
+      "bytes_total": 17082,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 449,
+        "Go": 16548,
+        "Makefile": 85
+      },
+      "status": "ok"
+    },
+    "KaueFSoares/rinha-de-backend-2026-java-quarkus": {
+      "bytes_total": 31299,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 716,
+        "Java": 22552,
+        "JavaScript": 7664,
+        "Shell": 367
+      },
+      "status": "ok"
+    },
+    "Klleriston/rinha-2026-bun": {
+      "bytes_total": 9258,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "Dockerfile": 905,
+        "TypeScript": 8353
+      },
+      "status": "ok"
+    },
+    "LeandroLS/rinha-backend-2026": {
+      "bytes_total": 15510,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "JavaScript",
+      "languages": {
+        "Dockerfile": 212,
+        "JavaScript": 15298
+      },
+      "status": "ok"
+    },
+    "LuanMonteiro/rinha-backend-2026": {
+      "bytes_total": 190898,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "Dockerfile": 185,
+        "TypeScript": 190713
+      },
+      "status": "ok"
+    },
+    "Lucianoottor/rinha-2026-rust": {
+      "bytes_total": 86611,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 1078,
+        "Rust": 85533
+      },
+      "status": "ok"
+    },
+    "Luckstai/rinha-de-backend-2026-luckstai-rust": {
+      "bytes_total": 91558,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 651,
+        "JavaScript": 10633,
+        "Rust": 68378,
+        "Shell": 11896
+      },
+      "status": "ok"
+    },
+    "LudGalvao/rinha-java": {
+      "bytes_total": 34633,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 2238,
+        "Java": 32395
+      },
+      "status": "ok"
+    },
+    "LuisBarbosaGit/rinha-backend-2026": {
+      "bytes_total": 12066,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "Dockerfile": 462,
+        "TypeScript": 11604
+      },
+      "status": "ok"
+    },
+    "MXLange/c-api-rinha2026": {
+      "bytes_total": 64631,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 62981,
+        "Dockerfile": 835,
+        "Makefile": 815
+      },
+      "status": "ok"
+    },
+    "MXLange/go-api-rinha2026": {
+      "bytes_total": 42036,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 601,
+        "Go": 41435
+      },
+      "status": "ok"
+    },
+    "Manfrin92/rinha2026-dotnet": {
+      "bytes_total": 29333,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 20627,
+        "Dockerfile": 1049,
+        "JavaScript": 7657
+      },
+      "status": "ok"
+    },
+    "Marcelovmendes/rinha-backend-2026-java": {
+      "bytes_total": 67240,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 858,
+        "Java": 58121,
+        "JavaScript": 7664,
+        "Shell": 597
+      },
+      "status": "ok"
+    },
+    "Marcoant007/rinha-backend-2026": {
+      "bytes_total": 70439,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Go": 62425,
+        "PowerShell": 2745,
+        "Shell": 5269
+      },
+      "status": "ok"
+    },
+    "MarcusAdriano/rinha-backend-2026-go": {
+      "bytes_total": 18841,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 281,
+        "Go": 18560
+      },
+      "status": "ok"
+    },
+    "MatheusBasso99/rinha-de-backend-2026": {
+      "bytes_total": 182783,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Crystal",
+      "languages": {
+        "Crystal": 176914,
+        "Dockerfile": 4455,
+        "Makefile": 1414
+      },
+      "status": "ok"
+    },
+    "NRLacerda/fraud-detection-api": {
+      "bytes_total": 137030,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 805,
+        "Go": 128561,
+        "JavaScript": 7664
+      },
+      "status": "ok"
+    },
+    "Ninorp/rinha-2026-python": {
+      "bytes_total": 57141,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "Dockerfile": 1676,
+        "Python": 55465
+      },
+      "status": "ok"
+    },
+    "NormanFrieman/fraude": {
+      "bytes_total": 36538,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 35679,
+        "Dockerfile": 859
+      },
+      "status": "ok"
+    },
+    "Pettecco/rinha-de-backend-2026-go": {
+      "bytes_total": 39763,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "C": 1011,
+        "Dockerfile": 650,
+        "Go": 30500,
+        "JavaScript": 7155,
+        "Makefile": 447
+      },
+      "status": "ok"
+    },
+    "Pongelupe/rinha-backend-2026": {
+      "bytes_total": 41219,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 461,
+        "Rust": 40758
+      },
+      "status": "ok"
+    },
+    "RenanOfugi/rinha2026-deteccao-fraude-java": {
+      "bytes_total": 109044,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 2497,
+        "Java": 106547
+      },
+      "status": "ok"
+    },
+    "RuanMart/rinha-backend-java-25": {
+      "bytes_total": 61562,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 1020,
+        "Java": 60542
+      },
+      "status": "ok"
+    },
+    "RuanPabloCR/rinha-de-backend2026": {
+      "bytes_total": 35185,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 32468,
+        "Dockerfile": 2717
+      },
+      "status": "ok"
+    },
+    "SergioTEC/rinha-de-backend-2026": {
+      "bytes_total": 76461,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "C": 1821,
+        "Dockerfile": 3147,
+        "Rust": 71493
+      },
+      "status": "ok"
+    },
+    "Shobon03/rinha-de-backend-2026-go": {
+      "bytes_total": 30225,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 839,
+        "Go": 21722,
+        "JavaScript": 7664
+      },
+      "status": "ok"
+    },
+    "SmookeyDev/rinha-2026-rust": {
+      "bytes_total": 115005,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 1448,
+        "Python": 9525,
+        "Rust": 104032
+      },
+      "status": "ok"
+    },
+    "SrWalkerB/rinha-de-backend-2026-api": {
+      "bytes_total": 159347,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 10601,
+        "Dockerfile": 1819,
+        "Go": 124601,
+        "PowerShell": 22326
+      },
+      "status": "ok"
+    },
+    "SrWalkerB/rinha-de-backend-2026-c-api-": {
+      "bytes_total": 86223,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 51373,
+        "JavaScript": 20974,
+        "Makefile": 735,
+        "PowerShell": 4342,
+        "Shell": 8799
+      },
+      "status": "ok"
+    },
+    "ThiaudioTT/fraud-detection-rinha-backend-2026": {
+      "bytes_total": 13622,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 355,
+        "Go": 13267
+      },
+      "status": "ok"
+    },
+    "TiagoAndreAlmeida/rinha-backend-2026-node": {
+      "bytes_total": 38200,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "Dockerfile": 1751,
+        "JavaScript": 7676,
+        "TypeScript": 28773
+      },
+      "status": "ok"
+    },
+    "VCalazans/rinha-de-backend-2026": {
+      "bytes_total": 370962,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 351939,
+        "Dockerfile": 2321,
+        "JavaScript": 7664,
+        "Makefile": 3967,
+        "Nix": 338,
+        "Shell": 4733
+      },
+      "status": "ok"
+    },
+    "VitorNathanG/rinha-de-papagaio": {
+      "bytes_total": 280121,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "Dockerfile": 1491,
+        "JavaScript": 20561,
+        "Makefile": 9918,
+        "Python": 150365,
+        "Rust": 55960,
+        "Shell": 41826
+      },
+      "status": "ok"
+    },
+    "WesleyKaihara/rinha-backend-2026": {
+      "bytes_total": 23917,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 615,
+        "Go": 23302
+      },
+      "status": "ok"
+    },
+    "YohanToledo/rinha-backend-2026-c": {
+      "bytes_total": 46884,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 46240,
+        "Dockerfile": 644
+      },
+      "status": "ok"
+    },
+    "abeswz/gopher-fraud-detection": {
+      "bytes_total": 68639,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 2209,
+        "Dockerfile": 555,
+        "Go": 45728,
+        "Makefile": 1746,
+        "Python": 18401
+      },
+      "status": "ok"
+    },
+    "abeswz/rinha-backend-2026-rust": {
+      "bytes_total": 1782218,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 223,
+        "JavaScript": 20042,
+        "Makefile": 2156,
+        "Python": 28685,
+        "Rust": 1730995,
+        "Shell": 117
+      },
+      "status": "ok"
+    },
+    "adanSiqueira/vector-fraud-detection-python": {
+      "bytes_total": 21512,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "Dockerfile": 2120,
+        "Python": 19392
+      },
+      "status": "ok"
+    },
+    "adsanla/rinha2026": {
+      "bytes_total": 166279,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 139549,
+        "Dockerfile": 1975,
+        "JavaScript": 21853,
+        "Makefile": 2902
+      },
+      "status": "ok"
+    },
+    "alan-venv/rinha-2026": {
+      "bytes_total": 86131,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "JavaScript": 5819,
+        "Rust": 78348,
+        "Shell": 1964
+      },
+      "status": "ok"
+    },
+    "alanpeixinho/rinha-beckend-2026": {
+      "bytes_total": 0,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Unknown",
+      "languages": {},
+      "status": "empty"
+    },
+    "alexoliveiramartins/fraud-detection": {
+      "bytes_total": 68445,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 711,
+        "Go": 65741,
+        "Makefile": 1993
+      },
+      "status": "ok"
+    },
+    "andrebsoares/rinha-de-backend-2026-andre-dotnet": {
+      "bytes_total": 34639,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 33545,
+        "Dockerfile": 1094
+      },
+      "status": "ok"
+    },
+    "andreluiz901/rinha-backend-2026": {
+      "bytes_total": 15577,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 121,
+        "Go": 15456
+      },
+      "status": "ok"
+    },
+    "arthurd3/fraud-detection": {
+      "bytes_total": 248316,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "C": 494,
+        "Dockerfile": 1680,
+        "Java": 179032,
+        "Rust": 67110
+      },
+      "status": "ok"
+    },
+    "arthursfares/rinha-backend-2026": {
+      "bytes_total": 17957,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 1201,
+        "Dockerfile": 574,
+        "Go": 16182
+      },
+      "status": "ok"
+    },
+    "arturlbg/rinha-backend-2026-c": {
+      "bytes_total": 745888,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 613216,
+        "Dockerfile": 627,
+        "Makefile": 11750,
+        "PowerShell": 89010,
+        "Python": 31285
+      },
+      "status": "ok"
+    },
+    "arturlbg/rinha-backend-2026-go": {
+      "bytes_total": 421291,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 554,
+        "Go": 343081,
+        "PowerShell": 77656
+      },
+      "status": "ok"
+    },
+    "atomosdovini/rinha-fraud-go": {
+      "bytes_total": 31391,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 969,
+        "Go": 30422
+      },
+      "status": "ok"
+    },
+    "atomosdovini/rinha-fraud-rust": {
+      "bytes_total": 76108,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C++",
+      "languages": {
+        "C++": 37039,
+        "Dockerfile": 1625,
+        "Makefile": 503,
+        "Rust": 36941
+      },
+      "status": "ok"
+    },
+    "atomosdovini/rinha-vini": {
+      "bytes_total": 43902,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 1967,
+        "Rust": 38850,
+        "Shell": 3085
+      },
+      "status": "ok"
+    },
+    "augustoFranke/rinha-de-backend-2026": {
+      "bytes_total": 27546,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C++",
+      "languages": {
+        "C++": 23278,
+        "Dockerfile": 498,
+        "JavaScript": 831,
+        "Makefile": 604,
+        "Python": 2335
+      },
+      "status": "ok"
+    },
+    "banjohann/rinha-2026-go": {
+      "bytes_total": 57258,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 888,
+        "Go": 53260,
+        "Makefile": 3110
+      },
+      "status": "ok"
+    },
+    "bentoplebstguida/rinha-de-backend-2026": {
+      "bytes_total": 13725,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "Dockerfile": 2468,
+        "Python": 11257
+      },
+      "status": "ok"
+    },
+    "bernardoazevedo/rinha-backend-2026-gopy-lightgbm": {
+      "bytes_total": 31843,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 877,
+        "Go": 19268,
+        "JavaScript": 7664,
+        "Python": 4034
+      },
+      "status": "ok"
+    },
+    "bertoni/rinha-backend-2026": {
+      "bytes_total": 13633,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "Dockerfile": 882,
+        "JavaScript": 5898,
+        "Makefile": 303,
+        "Python": 6550
+      },
+      "status": "ok"
+    },
+    "bmtec/rinha-backend-2026": {
+      "bytes_total": 142867,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 1753,
+        "JavaScript": 20210,
+        "Python": 2507,
+        "Rust": 118397
+      },
+      "status": "ok"
+    },
+    "breno5g/rinha-backend-2026": {
+      "bytes_total": 53102,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 1298,
+        "Dockerfile": 1695,
+        "Go": 50109
+      },
+      "status": "ok"
+    },
+    "brunonunestx/backend-fight-api": {
+      "bytes_total": 41057,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 386,
+        "JavaScript": 7152,
+        "Rust": 33519
+      },
+      "status": "ok"
+    },
+    "brunonunestx/backend-fight-api-golang": {
+      "bytes_total": 41802,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 312,
+        "Go": 23081,
+        "JavaScript": 18277,
+        "Makefile": 132
+      },
+      "status": "ok"
+    },
+    "bulletdev/bulletonrails-ruby": {
+      "bytes_total": 20741,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Ruby",
+      "languages": {
+        "Dockerfile": 733,
+        "Ruby": 20008
+      },
+      "status": "ok"
+    },
+    "bulletdev/bulletonrails-zig": {
+      "bytes_total": 68993,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Zig",
+      "languages": {
+        "Dockerfile": 963,
+        "Zig": 68030
+      },
+      "status": "ok"
+    },
+    "carlsonsantana/rinha-de-backend-2026-java": {
+      "bytes_total": 95719,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "C": 7383,
+        "Dockerfile": 1384,
+        "Java": 77809,
+        "Lua": 535,
+        "Makefile": 159,
+        "Python": 5762,
+        "Shell": 2687
+      },
+      "status": "ok"
+    },
+    "ceelsoin/rinha-backend-2026-go": {
+      "bytes_total": 96856,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 11498,
+        "Dockerfile": 2394,
+        "Go": 56501,
+        "JavaScript": 20210,
+        "Makefile": 407,
+        "Python": 5846
+      },
+      "status": "ok"
+    },
+    "chagas42/rinha-rust": {
+      "bytes_total": 33473,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 991,
+        "Rust": 32482
+      },
+      "status": "ok"
+    },
+    "claudin-io/rinha-de-backend-2026": {
+      "bytes_total": 161988,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "Dockerfile": 1876,
+        "JavaScript": 19212,
+        "Python": 61197,
+        "Shell": 18547,
+        "Swift": 61156
+      },
+      "status": "ok"
+    },
+    "cleissonbarbosa/rinha-backend-2026": {
+      "bytes_total": 39447,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Nim",
+      "languages": {
+        "Dockerfile": 2229,
+        "Makefile": 330,
+        "Nim": 24418,
+        "Shell": 550,
+        "Zig": 11920
+      },
+      "status": "ok"
+    },
+    "cleissonbarbosa/rinha-backend-2026-ispc": {
+      "bytes_total": 114464,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Zig",
+      "languages": {
+        "C": 11220,
+        "Dockerfile": 2779,
+        "ISPC": 8334,
+        "Makefile": 854,
+        "Nim": 14948,
+        "Shell": 564,
+        "Zig": 75765
+      },
+      "status": "ok"
+    },
+    "cleissonbarbosa/rinha-backend-2026-rinha": {
+      "bytes_total": 3855,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Shell",
+      "languages": {
+        "Makefile": 1778,
+        "Shell": 2077
+      },
+      "status": "ok"
+    },
+    "cleissonbarbosa/rinha-backend-2026-rust": {
+      "bytes_total": 70904,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "C": 11220,
+        "Makefile": 711,
+        "Rust": 58409,
+        "Shell": 564
+      },
+      "status": "ok"
+    },
+    "crepao-da-massa/silent-index": {
+      "bytes_total": 113065,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C++",
+      "languages": {
+        "C": 7170,
+        "C++": 103316,
+        "Dockerfile": 1400,
+        "Makefile": 1179
+      },
+      "status": "ok"
+    },
+    "dalvorsn/cpp-rinha-backend-2026": {
+      "bytes_total": 135459,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C++",
+      "languages": {
+        "C++": 109674,
+        "CMake": 1801,
+        "Dockerfile": 2148,
+        "JavaScript": 19925,
+        "Makefile": 1911
+      },
+      "status": "ok"
+    },
+    "danielwisky/rinha-backend-2026-go": {
+      "bytes_total": 44902,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 1926,
+        "Go": 42976
+      },
+      "status": "ok"
+    },
+    "daniloitagyba/rinha-2026-dotnet": {
+      "bytes_total": 566791,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C": 128001,
+        "C#": 355951,
+        "Dockerfile": 3107,
+        "JavaScript": 6970,
+        "PowerShell": 27079,
+        "Shell": 45683
+      },
+      "status": "ok"
+    },
+    "daniloitagyba/rinha-2026-rust": {
+      "bytes_total": 185775,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "C": 8853,
+        "Dockerfile": 2211,
+        "JavaScript": 6182,
+        "PowerShell": 19425,
+        "Rust": 131682,
+        "Shell": 17422
+      },
+      "status": "ok"
+    },
+    "davibto/rinha-de-backend-2026-davibto": {
+      "bytes_total": 14928,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 12757,
+        "Dockerfile": 605,
+        "JavaScript": 1566
+      },
+      "status": "ok"
+    },
+    "davidalecrim1/rinha-with-rust-extreme-2026": {
+      "bytes_total": 88175,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 757,
+        "JavaScript": 2379,
+        "Makefile": 4006,
+        "Python": 3334,
+        "Rust": 76304,
+        "Shell": 1395
+      },
+      "status": "ok"
+    },
+    "davivoltas/go-cocorico": {
+      "bytes_total": 39510,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 1451,
+        "Go": 30395,
+        "JavaScript": 7664
+      },
+      "status": "ok"
+    },
+    "dev-mariana/rinha-backend-2026": {
+      "bytes_total": 12635,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "Dockerfile": 943,
+        "Python": 5027,
+        "TypeScript": 6665
+      },
+      "status": "ok"
+    },
+    "devRaelBraga/rinha-2026-xgboost-rust": {
+      "bytes_total": 74000,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 2423,
+        "JavaScript": 8971,
+        "PowerShell": 8834,
+        "Python": 20662,
+        "Rust": 30055,
+        "Shell": 3055
+      },
+      "status": "ok"
+    },
+    "diegoph/rinha-backend-2026-java-native": {
+      "bytes_total": 98314,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 805,
+        "Java": 96847,
+        "Shell": 662
+      },
+      "status": "ok"
+    },
+    "eltonmesquita87/rinha-de-backend-2026-mesquita-rust": {
+      "bytes_total": 47753,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 1136,
+        "JavaScript": 915,
+        "Rust": 45702
+      },
+      "status": "ok"
+    },
+    "epicvinny/rinha-de-backend-2026-epicvinny": {
+      "bytes_total": 320679,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "C": 130983,
+        "Dockerfile": 1635,
+        "JavaScript": 20210,
+        "Makefile": 321,
+        "Nix": 338,
+        "Rust": 162372,
+        "Shell": 4820
+      },
+      "status": "ok"
+    },
+    "ericbsantana/rinha-de-backend-2026-rust": {
+      "bytes_total": 29375,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Rust": 29375
+      },
+      "status": "ok"
+    },
+    "evinicius16/fraud-detection-knn-go": {
+      "bytes_total": 81530,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 1608,
+        "Go": 68664,
+        "JavaScript": 4200,
+        "Makefile": 1419,
+        "Shell": 5639
+      },
+      "status": "ok"
+    },
+    "ewertonlim/rinha-de-backend-2026": {
+      "bytes_total": 33102,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 2160,
+        "Rust": 30942
+      },
+      "status": "ok"
+    },
+    "fabianoflorentino/fraudctl": {
+      "bytes_total": 275749,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 5807,
+        "Dockerfile": 1891,
+        "Go": 253202,
+        "Makefile": 13547,
+        "Shell": 1302
+      },
+      "status": "ok"
+    },
+    "fagnerm/FMLab.RinhaDeBackend.DeteccaoDeFraude.Dotnet": {
+      "bytes_total": 78794,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 68350,
+        "Dockerfile": 1537,
+        "JavaScript": 8907
+      },
+      "status": "ok"
+    },
+    "fandangolas/rinha-2026-rust": {
+      "bytes_total": 123312,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 1798,
+        "JavaScript": 21864,
+        "Rust": 92800,
+        "Shell": 6850
+      },
+      "status": "ok"
+    },
+    "fernandosutter/Rinha-2026-Sutter": {
+      "bytes_total": 60229,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 53057,
+        "Dockerfile": 2135,
+        "Python": 5037
+      },
+      "status": "ok"
+    },
+    "fksegundo/rinha-dotnet": {
+      "bytes_total": 187915,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 173667,
+        "Dockerfile": 1629,
+        "Makefile": 2560,
+        "Rust": 10059
+      },
+      "status": "ok"
+    },
+    "fksegundo/rinha-rust": {
+      "bytes_total": 197748,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 2200,
+        "Makefile": 1036,
+        "Rust": 194512
+      },
+      "status": "ok"
+    },
+    "fksegundo/rinha-rust-tree": {
+      "bytes_total": 303744,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 2300,
+        "Makefile": 1055,
+        "Rust": 300389
+      },
+      "status": "ok"
+    },
+    "gabrielfranh/rinha-de-backend-2026-gabrielfranh": {
+      "bytes_total": 23147,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 22502,
+        "Dockerfile": 645
+      },
+      "status": "ok"
+    },
+    "gabrielrauch/rinha-2026": {
+      "bytes_total": 93942,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 1929,
+        "Rust": 91468,
+        "Shell": 545
+      },
+      "status": "ok"
+    },
+    "gaelos7k/rinha-de-backend-2026": {
+      "bytes_total": 17307,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "Dockerfile": 612,
+        "TypeScript": 16695
+      },
+      "status": "ok"
+    },
+    "gandarez/rinha-de-backend-2026-gandarez-go": {
+      "bytes_total": 50126,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 637,
+        "Go": 48734,
+        "Shell": 755
+      },
+      "status": "ok"
+    },
+    "gb/jvmoonshot-xxvi": {
+      "bytes_total": 331110,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 1331,
+        "Java": 317576,
+        "Rust": 12203
+      },
+      "status": "ok"
+    },
+    "gcavalcante/rinha-2026-c": {
+      "bytes_total": 41705,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 28822,
+        "Dockerfile": 761,
+        "Lua": 676,
+        "Shell": 11446
+      },
+      "status": "ok"
+    },
+    "gcesario203/rinha-de-backend-2026": {
+      "bytes_total": 258337,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 129726,
+        "C#": 113378,
+        "Dockerfile": 2137,
+        "JavaScript": 7704,
+        "Makefile": 321,
+        "Nix": 338,
+        "Shell": 4733
+      },
+      "status": "ok"
+    },
+    "geeksilva97/rinha-2026": {
+      "bytes_total": 80609,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C++",
+      "languages": {
+        "C++": 46386,
+        "Dockerfile": 1353,
+        "Makefile": 1476,
+        "Ruby": 30120,
+        "Shell": 1274
+      },
+      "status": "ok"
+    },
+    "geeksilva97/rinha-cpp": {
+      "bytes_total": 1037889,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C++",
+      "languages": {
+        "C++": 1015377,
+        "Dockerfile": 1012,
+        "JavaScript": 18450,
+        "Makefile": 1635,
+        "Shell": 1415
+      },
+      "status": "ok"
+    },
+    "georgepiter/rinha-2026-java": {
+      "bytes_total": 15517,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 368,
+        "Java": 14678,
+        "Shell": 471
+      },
+      "status": "ok"
+    },
+    "gogoncalves/rinha-fraud-2026": {
+      "bytes_total": 95626,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Zig",
+      "languages": {
+        "Dockerfile": 1388,
+        "JavaScript": 25427,
+        "Makefile": 684,
+        "Shell": 554,
+        "Zig": 67573
+      },
+      "status": "ok"
+    },
+    "greg0x46/rinha-backend-2026-go": {
+      "bytes_total": 159654,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 3700,
+        "Dockerfile": 644,
+        "Go": 155310
+      },
+      "status": "ok"
+    },
+    "guih50/rinha-de-backend-2026": {
+      "bytes_total": 201500,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 129726,
+        "Dockerfile": 163,
+        "JavaScript": 7664,
+        "Makefile": 321,
+        "Nix": 338,
+        "Python": 14925,
+        "Rust": 43630,
+        "Shell": 4733
+      },
+      "status": "ok"
+    },
+    "gustinoco/rinha-backend-2026": {
+      "bytes_total": 34780,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "Dockerfile": 782,
+        "JavaScript": 643,
+        "Shell": 1216,
+        "TypeScript": 32139
+      },
+      "status": "ok"
+    },
+    "henrich-m/rinha-de-backend-2026": {
+      "bytes_total": 19724,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Ruby",
+      "languages": {
+        "Dockerfile": 470,
+        "Makefile": 1085,
+        "Ruby": 18169
+      },
+      "status": "ok"
+    },
+    "henriquemtn/rinha-backend-2026": {
+      "bytes_total": 46707,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "C": 1011,
+        "Dockerfile": 650,
+        "Go": 37529,
+        "JavaScript": 7149,
+        "Shell": 368
+      },
+      "status": "ok"
+    },
+    "henriqueyda/rinha-de-backend-2026": {
+      "bytes_total": 11772,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Go": 11772
+      },
+      "status": "ok"
+    },
+    "henrycunh/rinha26-rust": {
+      "bytes_total": 238011,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "C": 9850,
+        "Dockerfile": 1146,
+        "Python": 14197,
+        "Rust": 212818
+      },
+      "status": "ok"
+    },
+    "hvitorino/rinha-de-backend-2026": {
+      "bytes_total": 190028,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 130983,
+        "Dockerfile": 590,
+        "Go": 33363,
+        "JavaScript": 19613,
+        "Makefile": 321,
+        "Nix": 338,
+        "Shell": 4820
+      },
+      "status": "ok"
+    },
+    "iamjoaovytor/iamjoaovytor-swift": {
+      "bytes_total": 211679,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Swift",
+      "languages": {
+        "Dockerfile": 8889,
+        "Swift": 202790
+      },
+      "status": "ok"
+    },
+    "inacioiso/rinha-backend-2026": {
+      "bytes_total": 14362,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "Dockerfile": 1363,
+        "TypeScript": 12999
+      },
+      "status": "ok"
+    },
+    "isaquetdiniz/rinha-de-backend-2026": {
+      "bytes_total": 54319,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "C++": 18556,
+        "Dockerfile": 1046,
+        "JavaScript": 7730,
+        "Python": 679,
+        "Shell": 6012,
+        "TypeScript": 20296
+      },
+      "status": "ok"
+    },
+    "italovinicius18/rinha-ai-2026-cpu": {
+      "bytes_total": 0,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Unknown",
+      "languages": {},
+      "status": "empty"
+    },
+    "italovinicius18/rinha-ai-2026-deep": {
+      "bytes_total": 0,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Unknown",
+      "languages": {},
+      "status": "empty"
+    },
+    "italovinicius18/rinha-ai-2026-ignore": {
+      "bytes_total": 178915,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 36999,
+        "Go": 141916
+      },
+      "status": "ok"
+    },
+    "jgouvea7/fraud-detection-api": {
+      "bytes_total": 48936,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 25686,
+        "Dockerfile": 1466,
+        "JavaScript": 7152,
+        "Makefile": 425,
+        "TypeScript": 14207
+      },
+      "status": "ok"
+    },
+    "jhon2c/rinha-de-backend-2026-zig": {
+      "bytes_total": 69990,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Zig",
+      "languages": {
+        "Dockerfile": 1231,
+        "Zig": 68759
+      },
+      "status": "ok"
+    },
+    "joaoMiraya/rinha-backend-2026": {
+      "bytes_total": 44175,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 646,
+        "Rust": 43529
+      },
+      "status": "ok"
+    },
+    "joaogabrielgs1/rinha-de-backend-2026": {
+      "bytes_total": 8817,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "Dockerfile": 338,
+        "Python": 8479
+      },
+      "status": "ok"
+    },
+    "jonas-elias/rinha-backend-2026-php": {
+      "bytes_total": 48342,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "PHP",
+      "languages": {
+        "C": 8001,
+        "Dockerfile": 3043,
+        "PHP": 33896,
+        "Shell": 3402
+      },
+      "status": "ok"
+    },
+    "jonas-elias/rinha-backend-2026-php-rust": {
+      "bytes_total": 52415,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 4749,
+        "PHP": 1813,
+        "Rust": 41638,
+        "Shell": 4215
+      },
+      "status": "ok"
+    },
+    "joojf/rinha-2026": {
+      "bytes_total": 51458,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 781,
+        "Rust": 49125,
+        "Shell": 1552
+      },
+      "status": "ok"
+    },
+    "jorgezup/rinha-dotnet10": {
+      "bytes_total": 46100,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 45226,
+        "Shell": 874
+      },
+      "status": "ok"
+    },
+    "josehenrique-dev/rinha-de-backend-2026-henrique-golang": {
+      "bytes_total": 95458,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 5430,
+        "Dockerfile": 1095,
+        "Go": 88933
+      },
+      "status": "ok"
+    },
+    "joseiedo/ranho": {
+      "bytes_total": 59197,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 1717,
+        "Rust": 56227,
+        "Shell": 1253
+      },
+      "status": "ok"
+    },
+    "josinaldojr/anti-fraudeiro": {
+      "bytes_total": 121462,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 2621,
+        "Dockerfile": 752,
+        "Go": 105034,
+        "JavaScript": 6869,
+        "Makefile": 1252,
+        "PowerShell": 2667,
+        "Shell": 2267
+      },
+      "status": "ok"
+    },
+    "jotapemattos/rinha-de-backend-2026": {
+      "bytes_total": 49472,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "C": 6882,
+        "Dockerfile": 677,
+        "Shell": 307,
+        "TypeScript": 41606
+      },
+      "status": "ok"
+    },
+    "joycegodinho/rinha-2026": {
+      "bytes_total": 238997,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 10531,
+        "C": 1860,
+        "C++": 94497,
+        "Dockerfile": 735,
+        "Go": 114045,
+        "Makefile": 1532,
+        "Shell": 15797
+      },
+      "status": "ok"
+    },
+    "jutamagno/rinha-de-backend-2026-clojure": {
+      "bytes_total": 33186,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Clojure",
+      "languages": {
+        "Clojure": 23937,
+        "Dockerfile": 3655,
+        "Java": 5594
+      },
+      "status": "ok"
+    },
+    "jvmazagao/rinha-2026": {
+      "bytes_total": 9935,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 794,
+        "Go": 9141
+      },
+      "status": "ok"
+    },
+    "jvsouzx/rb-2026": {
+      "bytes_total": 155979,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Jupyter Notebook",
+      "languages": {
+        "C++": 22363,
+        "CMake": 1099,
+        "Dockerfile": 1436,
+        "Jupyter Notebook": 129947,
+        "Makefile": 1134
+      },
+      "status": "ok"
+    },
+    "klevercorrea/backend-battle-2026": {
+      "bytes_total": 72574,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Zig",
+      "languages": {
+        "Dockerfile": 2132,
+        "Shell": 3512,
+        "Zig": 66930
+      },
+      "status": "ok"
+    },
+    "krymancer/rinha-de-backend-2026-ocaml": {
+      "bytes_total": 135187,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "OCaml",
+      "languages": {
+        "C": 16245,
+        "Dockerfile": 2174,
+        "Dune": 16,
+        "Just": 1296,
+        "OCaml": 115456
+      },
+      "status": "ok"
+    },
+    "lazaroborges/lazaroborges-go": {
+      "bytes_total": 38157,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 1182,
+        "Go": 36975
+      },
+      "status": "ok"
+    },
+    "lealre/rinha26-go": {
+      "bytes_total": 26049,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 1617,
+        "Go": 24432
+      },
+      "status": "ok"
+    },
+    "leoferlopes/rinha-de-backend-2026-leoferlopes-cpp": {
+      "bytes_total": 77371,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 66766,
+        "Dockerfile": 2293,
+        "JavaScript": 7686,
+        "Makefile": 626
+      },
+      "status": "ok"
+    },
+    "leofmarciano/rinha-de-backend-2026": {
+      "bytes_total": 162776,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C++",
+      "languages": {
+        "C++": 140174,
+        "CMake": 6216,
+        "Dockerfile": 1142,
+        "JavaScript": 7676,
+        "Makefile": 2076,
+        "Python": 2986,
+        "Shell": 2506
+      },
+      "status": "ok"
+    },
+    "lhupalo/rbc-2026": {
+      "bytes_total": 349776,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Jupyter Notebook",
+      "languages": {
+        "Dockerfile": 749,
+        "Go": 17521,
+        "JavaScript": 1663,
+        "Jupyter Notebook": 325733,
+        "Makefile": 629,
+        "Python": 1231,
+        "Shell": 2250
+      },
+      "status": "ok"
+    },
+    "lobomfz/rinha-2026-bun": {
+      "bytes_total": 158073,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "C": 26419,
+        "Dockerfile": 1027,
+        "JavaScript": 8871,
+        "TypeScript": 121756
+      },
+      "status": "ok"
+    },
+    "lothyriel/rinha_2026": {
+      "bytes_total": 96886,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 918,
+        "Rust": 95968
+      },
+      "status": "ok"
+    },
+    "lucas-rl/rinha-2026": {
+      "bytes_total": 44702,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 518,
+        "Java": 39340,
+        "Python": 4844
+      },
+      "status": "ok"
+    },
+    "lucasgoveia/rinha-2026": {
+      "bytes_total": 80494,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 2117,
+        "Rust": 72009,
+        "Zig": 6368
+      },
+      "status": "ok"
+    },
+    "lucasmenchon/rinha-de-backend-2026-c": {
+      "bytes_total": 105589,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 92547,
+        "Dockerfile": 3228,
+        "Makefile": 3127,
+        "Shell": 6687
+      },
+      "status": "ok"
+    },
+    "lucasmolinari/rbe26": {
+      "bytes_total": 60326,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 639,
+        "JavaScript": 19640,
+        "Makefile": 992,
+        "Rust": 39055
+      },
+      "status": "ok"
+    },
+    "lucasmontano/rinha-backend-2026-detecta-fraude": {
+      "bytes_total": 141655,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "C": 6165,
+        "Dockerfile": 1495,
+        "Python": 2519,
+        "Rust": 125181,
+        "Shell": 6295
+      },
+      "status": "ok"
+    },
+    "lucasraziel/rinha-de-backend-2026": {
+      "bytes_total": 64420,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 1568,
+        "JavaScript": 5904,
+        "Rust": 52512,
+        "Shell": 4436
+      },
+      "status": "ok"
+    },
+    "lucasschilin/rinha-de-backend-2026-fraud-detection-go": {
+      "bytes_total": 37155,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "JavaScript",
+      "languages": {
+        "Dockerfile": 323,
+        "Go": 15840,
+        "JavaScript": 20209,
+        "Makefile": 783
+      },
+      "status": "ok"
+    },
+    "luccarhaddad/luccarhaddad-zig-rb26": {
+      "bytes_total": 44725,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Zig",
+      "languages": {
+        "Dockerfile": 734,
+        "Zig": 43991
+      },
+      "status": "ok"
+    },
+    "luccarhaddad/rinha-2026-java": {
+      "bytes_total": 92153,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 3292,
+        "Java": 74238,
+        "Lua": 538,
+        "Python": 3501,
+        "Shell": 10584
+      },
+      "status": "ok"
+    },
+    "lucianommartins/assaih-powered-backend": {
+      "bytes_total": 170818,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Makefile",
+      "languages": {
+        "C++": 72958,
+        "CMake": 19011,
+        "Dockerfile": 2038,
+        "Makefile": 76458,
+        "TypeScript": 353
+      },
+      "status": "ok"
+    },
+    "luizbrandao13/rinha-de-backend-20266-go": {
+      "bytes_total": 225715,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 130983,
+        "Dockerfile": 869,
+        "Go": 68190,
+        "JavaScript": 20222,
+        "Makefile": 321,
+        "Nix": 338,
+        "Shell": 4792
+      },
+      "status": "ok"
+    },
+    "macedot/rinha-2026-c": {
+      "bytes_total": 76330,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 74057,
+        "Dockerfile": 1208,
+        "Makefile": 1065
+      },
+      "status": "ok"
+    },
+    "macielti/guarita": {
+      "bytes_total": 95959,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Clojure",
+      "languages": {
+        "Clojure": 92535,
+        "Dockerfile": 872,
+        "Python": 2552
+      },
+      "status": "ok"
+    },
+    "marcelolds/rinha-backend-2026": {
+      "bytes_total": 31963,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 23354,
+        "Dockerfile": 1106,
+        "JavaScript": 5076,
+        "PowerShell": 2427
+      },
+      "status": "ok"
+    },
+    "marcioomonte/rinha-de-backend-2026": {
+      "bytes_total": 66269,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 1438,
+        "JavaScript": 20210,
+        "Rust": 44621
+      },
+      "status": "ok"
+    },
+    "marcoscarvalho04/rinha-backend-marcos-2026": {
+      "bytes_total": 32325,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "C": 6674,
+        "Dockerfile": 1017,
+        "Go": 23517,
+        "Makefile": 1117
+      },
+      "status": "ok"
+    },
+    "marcuspmd/rinha-backend-2026-rust": {
+      "bytes_total": 50427,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 1785,
+        "Rust": 48642
+      },
+      "status": "ok"
+    },
+    "marvin-env/rinha-2026-py": {
+      "bytes_total": 15040,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "Dockerfile": 1119,
+        "Python": 13921
+      },
+      "status": "ok"
+    },
+    "matheus896/rinha-back-26": {
+      "bytes_total": 159321,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 8353,
+        "Dockerfile": 506,
+        "Go": 144488,
+        "JavaScript": 5050,
+        "Makefile": 839,
+        "Shell": 85
+      },
+      "status": "ok"
+    },
+    "matheusosp/rinha-backend-2026": {
+      "bytes_total": 131420,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 91264,
+        "Dockerfile": 1721,
+        "JavaScript": 7534,
+        "Makefile": 8753,
+        "Nix": 62,
+        "PowerShell": 3877,
+        "Ruby": 14103,
+        "Shell": 4106
+      },
+      "status": "ok"
+    },
+    "maxsonferovante/rust-fraud-detection-api": {
+      "bytes_total": 126029,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 2738,
+        "JavaScript": 19640,
+        "Rust": 100744,
+        "Shell": 2907
+      },
+      "status": "ok"
+    },
+    "maxsonferovante/vector-based-fraud-detection-api": {
+      "bytes_total": 69442,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C++",
+      "languages": {
+        "C++": 61095,
+        "CMake": 4047,
+        "Dockerfile": 2822,
+        "Shell": 1478
+      },
+      "status": "ok"
+    },
+    "medinavs/rinha-backend-2026": {
+      "bytes_total": 68139,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 3233,
+        "Dockerfile": 1245,
+        "Go": 57729,
+        "JavaScript": 5932
+      },
+      "status": "ok"
+    },
+    "micheloliveira-com/rinha-de-backend-2026-dotnet-csharp-with-faiss-interop": {
+      "bytes_total": 21311,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 19161,
+        "Dockerfile": 2150
+      },
+      "status": "ok"
+    },
+    "micheloliveira-com/rinha-de-backend-2026-dotnet-csharp-with-python-faiss": {
+      "bytes_total": 20511,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 13326,
+        "Dockerfile": 3064,
+        "Python": 3340,
+        "Shell": 781
+      },
+      "status": "ok"
+    },
+    "molBR/rinha-backend-2026": {
+      "bytes_total": 101122,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 2173,
+        "Go": 65851,
+        "JavaScript": 33098
+      },
+      "status": "ok"
+    },
+    "morais15/rinha-backend-2026-vertx": {
+      "bytes_total": 22449,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 489,
+        "Java": 21960
+      },
+      "status": "ok"
+    },
+    "mpraes/rinha-2026-python1": {
+      "bytes_total": 15380,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "Dockerfile": 1017,
+        "Makefile": 531,
+        "Python": 13832
+      },
+      "status": "ok"
+    },
+    "mpraes/rinha-2026-python2": {
+      "bytes_total": 142782,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 129726,
+        "JavaScript": 7664,
+        "Makefile": 321,
+        "Nix": 338,
+        "Shell": 4733
+      },
+      "status": "ok"
+    },
+    "mpraes/rinha-2026-python3": {
+      "bytes_total": 19175,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "Dockerfile": 830,
+        "JavaScript": 5903,
+        "Python": 11219,
+        "Shell": 1223
+      },
+      "status": "ok"
+    },
+    "mtbarr/vigilant": {
+      "bytes_total": 52651,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 1359,
+        "Java": 47691,
+        "Shell": 3601
+      },
+      "status": "ok"
+    },
+    "muanlartins/rinha-de-backend-2026": {
+      "bytes_total": 248800,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 18017,
+        "Dockerfile": 1692,
+        "Go": 214589,
+        "Shell": 14502
+      },
+      "status": "ok"
+    },
+    "murilodacios/rinha-de-backend-2026-murilo": {
+      "bytes_total": 58072,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "JavaScript",
+      "languages": {
+        "Dockerfile": 884,
+        "Go": 22978,
+        "JavaScript": 34210
+      },
+      "status": "ok"
+    },
+    "nathanfabio/fraud-detector": {
+      "bytes_total": 27605,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 1307,
+        "Go": 26298
+      },
+      "status": "ok"
+    },
+    "nelsonsimionato/rinha-backend-2026": {
+      "bytes_total": 152917,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "Assembly": 6363,
+        "C": 88134,
+        "Dockerfile": 3344,
+        "Go": 50516,
+        "JavaScript": 1958,
+        "Makefile": 2602
+      },
+      "status": "ok"
+    },
+    "nicolasmmb/backend-war-go": {
+      "bytes_total": 122532,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 661,
+        "Go": 119209,
+        "Makefile": 2662
+      },
+      "status": "ok"
+    },
+    "obrunogonzaga/rinha-backend-2026-rust": {
+      "bytes_total": 108950,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 2154,
+        "JavaScript": 7664,
+        "Rust": 64709,
+        "Shell": 34423
+      },
+      "status": "ok"
+    },
+    "ogrodev/rdb-ultra": {
+      "bytes_total": 82774,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 542,
+        "JavaScript": 7664,
+        "Rust": 74568
+      },
+      "status": "ok"
+    },
+    "oliveirajhony/rinhabackend-2026-rust": {
+      "bytes_total": 49902,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 925,
+        "JavaScript": 5904,
+        "Rust": 41697,
+        "Shell": 1376
+      },
+      "status": "ok"
+    },
+    "pastel123so/pastel-de-zig": {
+      "bytes_total": 68246,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 66999,
+        "Dockerfile": 599,
+        "Makefile": 648
+      },
+      "status": "ok"
+    },
+    "paulohrpinheiro/rinha-backend-2026": {
+      "bytes_total": 81417,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Go": 73058,
+        "Makefile": 1865,
+        "Shell": 6494
+      },
+      "status": "ok"
+    },
+    "paulohrpinheiro/rinha2026-em-v": {
+      "bytes_total": 77134,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "V",
+      "languages": {
+        "AMPL": 252,
+        "Makefile": 1703,
+        "V": 75179
+      },
+      "status": "ok"
+    },
+    "paulohtolotti/rinha-backend-2026-java": {
+      "bytes_total": 15551,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 686,
+        "Java": 14865
+      },
+      "status": "ok"
+    },
+    "pedrohsbarbosa99/rinha-2026": {
+      "bytes_total": 1498,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 264,
+        "Go": 1234
+      },
+      "status": "ok"
+    },
+    "pedrosakuma/rinha-backend-2026": {
+      "bytes_total": 303463,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 260683,
+        "JavaScript": 12647,
+        "Python": 14591,
+        "Shell": 15542
+      },
+      "status": "ok"
+    },
+    "pedrosakuma/rinha-backend-2026-gpu-bruteforce": {
+      "bytes_total": 57054,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 936,
+        "Python": 1981,
+        "Rust": 50281,
+        "WGSL": 3856
+      },
+      "status": "ok"
+    },
+    "peesilva/rinha-de-backend-2026-pedro-borges": {
+      "bytes_total": 26837,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 2191,
+        "Rust": 24646
+      },
+      "status": "ok"
+    },
+    "peregrinno/heimdall": {
+      "bytes_total": 183751,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 18017,
+        "Dockerfile": 920,
+        "Go": 143614,
+        "PowerShell": 13970,
+        "Shell": 7230
+      },
+      "status": "ok"
+    },
+    "peregrinno/red-hela": {
+      "bytes_total": 31301,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "Dockerfile": 1163,
+        "PowerShell": 915,
+        "Python": 28882,
+        "Shell": 341
+      },
+      "status": "ok"
+    },
+    "pmenta/rinha26": {
+      "bytes_total": 194677,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "Dockerfile": 4769,
+        "JavaScript": 9263,
+        "TypeScript": 180645
+      },
+      "status": "ok"
+    },
+    "psavelis/rinha-backend-2026": {
+      "bytes_total": 185130,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 4356,
+        "JavaScript": 22958,
+        "Rust": 155238,
+        "Shell": 2578
+      },
+      "status": "ok"
+    },
+    "rafael-takahashi/rinha-2026": {
+      "bytes_total": 12257,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 788,
+        "Rust": 11469
+      },
+      "status": "ok"
+    },
+    "rafaelcoelhox/detecta-fraude": {
+      "bytes_total": 129630,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "C": 6400,
+        "Rust": 123230
+      },
+      "status": "ok"
+    },
+    "rafaelcoelhox/eu-sou-o-ze-pamonha": {
+      "bytes_total": 85635,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 81356,
+        "Dockerfile": 1136,
+        "Makefile": 2328,
+        "Shell": 815
+      },
+      "status": "ok"
+    },
+    "rafaelviefe/fraud-vector-detector": {
+      "bytes_total": 33309,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Kotlin",
+      "languages": {
+        "Dockerfile": 422,
+        "Kotlin": 32741,
+        "Shell": 146
+      },
+      "status": "ok"
+    },
+    "razevedo1994/rinha-backend-2026-python": {
+      "bytes_total": 15687,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "Dockerfile": 429,
+        "Python": 15258
+      },
+      "status": "ok"
+    },
+    "rcaram/rinha-rust-2026": {
+      "bytes_total": 107692,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 664,
+        "Rust": 103575,
+        "Shell": 3453
+      },
+      "status": "ok"
+    },
+    "reidn3r/rinha-backend-decision-tree-clf": {
+      "bytes_total": 0,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Unknown",
+      "languages": {},
+      "status": "empty"
+    },
+    "renatovico/rinha-elixir-pure": {
+      "bytes_total": 221110,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Elixir",
+      "languages": {
+        "Dockerfile": 2124,
+        "Elixir": 174041,
+        "JavaScript": 37938,
+        "Makefile": 6848,
+        "Shell": 159
+      },
+      "status": "ok"
+    },
+    "ricassiocosta/rinha-de-backend-2026-bun": {
+      "bytes_total": 58312,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "Dockerfile": 1257,
+        "TypeScript": 57055
+      },
+      "status": "ok"
+    },
+    "rlevidev/rinha-2026": {
+      "bytes_total": 44061,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 1500,
+        "Go": 40202,
+        "Shell": 2359
+      },
+      "status": "ok"
+    },
+    "rluuan/rinha-de-backend-2026-go": {
+      "bytes_total": 5901,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 338,
+        "Go": 5563
+      },
+      "status": "ok"
+    },
+    "rodrigocaldeira/rinha2026": {
+      "bytes_total": 27209,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Elixir",
+      "languages": {
+        "C": 6821,
+        "Dockerfile": 1321,
+        "Elixir": 14938,
+        "Makefile": 227,
+        "Python": 3902
+      },
+      "status": "ok"
+    },
+    "rodrigodotdev/rinha-backend-2026-bun-zig": {
+      "bytes_total": 80359,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Zig",
+      "languages": {
+        "Dockerfile": 2192,
+        "Shell": 1585,
+        "TypeScript": 8412,
+        "Zig": 68170
+      },
+      "status": "ok"
+    },
+    "ronaldosilva95/rinha-fraud-detection-engine": {
+      "bytes_total": 32151,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 929,
+        "Java": 29126,
+        "Shell": 2096
+      },
+      "status": "ok"
+    },
+    "ronicarvalho/fraud-detection": {
+      "bytes_total": 32021,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 965,
+        "Go": 30338,
+        "Shell": 718
+      },
+      "status": "ok"
+    },
+    "rrs6/rinha-backend-2026-fraud-detection": {
+      "bytes_total": 41520,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 1007,
+        "Java": 40513
+      },
+      "status": "ok"
+    },
+    "sandrosmarzaro/rinha-2026": {
+      "bytes_total": 34145,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "Dockerfile": 902,
+        "Python": 32150,
+        "Shell": 1093
+      },
+      "status": "ok"
+    },
+    "santannaf/rinha-2026": {
+      "bytes_total": 202953,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "C": 8952,
+        "Dockerfile": 2659,
+        "Java": 191342
+      },
+      "status": "ok"
+    },
+    "santo-ti/santo-rinha-backend-2026": {
+      "bytes_total": 218243,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Kotlin",
+      "languages": {
+        "Dockerfile": 4045,
+        "Java": 3247,
+        "Kotlin": 210951
+      },
+      "status": "ok"
+    },
+    "sl4ureano/rinha2026": {
+      "bytes_total": 485850,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "CSS": 6245,
+        "Dockerfile": 1189,
+        "HTML": 3258,
+        "JavaScript": 79267,
+        "PowerShell": 1069,
+        "Python": 72272,
+        "Rust": 321154,
+        "Shell": 1396
+      },
+      "status": "ok"
+    },
+    "sschonss/rinha-de-backend-2026": {
+      "bytes_total": 734201,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 706937,
+        "Dockerfile": 3128,
+        "JavaScript": 2005,
+        "Makefile": 1872,
+        "PHP": 11471,
+        "Python": 5372,
+        "Shell": 3416
+      },
+      "status": "ok"
+    },
+    "sudanvannin/rinha-2026-python": {
+      "bytes_total": 27293,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "C": 9459,
+        "Dockerfile": 607,
+        "Python": 17227
+      },
+      "status": "ok"
+    },
+    "sylviot/rinha2026": {
+      "bytes_total": 36081,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 34758,
+        "Dockerfile": 1323
+      },
+      "status": "ok"
+    },
+    "tarcisiopgs/rinha-backend-2026": {
+      "bytes_total": 75223,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 1806,
+        "Makefile": 1385,
+        "Rust": 68432,
+        "Shell": 3600
+      },
+      "status": "ok"
+    },
+    "thales-maciel/helheim": {
+      "bytes_total": 122040,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Haskell",
+      "languages": {
+        "Dockerfile": 1814,
+        "Haskell": 119430,
+        "Shell": 796
+      },
+      "status": "ok"
+    },
+    "thales-maciel/otto": {
+      "bytes_total": 64213,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Odin",
+      "languages": {
+        "Dockerfile": 1635,
+        "Makefile": 2352,
+        "Nix": 442,
+        "Odin": 57714,
+        "Shell": 2070
+      },
+      "status": "ok"
+    },
+    "thales-maciel/zordon": {
+      "bytes_total": 133295,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Zig",
+      "languages": {
+        "Dockerfile": 1539,
+        "Makefile": 1497,
+        "Python": 17197,
+        "Shell": 5596,
+        "Zig": 107466
+      },
+      "status": "ok"
+    },
+    "tharyckgusmao/rinha-backend-vibe-rust": {
+      "bytes_total": 103945,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 1458,
+        "Rust": 98329,
+        "Shell": 4158
+      },
+      "status": "ok"
+    },
+    "torreslucas13/r2026-fraud-vector-search": {
+      "bytes_total": 59720,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 49259,
+        "Dockerfile": 1606,
+        "JavaScript": 7664,
+        "Makefile": 1191
+      },
+      "status": "ok"
+    },
+    "tqrcisio/rinha-backend-2026-detecta-fraude": {
+      "bytes_total": 79424,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "C": 4185,
+        "Dockerfile": 132,
+        "Go": 75107
+      },
+      "status": "ok"
+    },
+    "vhtor/rinha-de-backend-2026": {
+      "bytes_total": 81095,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Kotlin",
+      "languages": {
+        "Dockerfile": 1745,
+        "JavaScript": 5429,
+        "Kotlin": 73921
+      },
+      "status": "ok"
+    },
+    "victorgare/rinha-de-backend-2026-net": {
+      "bytes_total": 55615,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 34369,
+        "Dockerfile": 1586,
+        "JavaScript": 19660
+      },
+      "status": "ok"
+    },
+    "villanidev/fraud-detection-api": {
+      "bytes_total": 167873,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Java",
+      "languages": {
+        "Dockerfile": 1806,
+        "Java": 157710,
+        "JavaScript": 5402,
+        "Shell": 2955
+      },
+      "status": "ok"
+    },
+    "vinicius-piassa/rinha-backend-2026-asm": {
+      "bytes_total": 244814,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Assembly",
+      "languages": {
+        "Assembly": 238072,
+        "Dockerfile": 2016,
+        "Makefile": 2140,
+        "Shell": 2586
+      },
+      "status": "ok"
+    },
+    "vinicius-piassa/rinha-backend-2026-go": {
+      "bytes_total": 68130,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 491,
+        "Go": 67639
+      },
+      "status": "ok"
+    },
+    "viniciusfonseca/rinha-2026": {
+      "bytes_total": 187176,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C",
+      "languages": {
+        "C": 175457,
+        "Dockerfile": 813,
+        "JavaScript": 7662,
+        "Makefile": 3244
+      },
+      "status": "ok"
+    },
+    "viniciusmoreiraa/rinha-de-backend-2026-vina-python": {
+      "bytes_total": 76852,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Python",
+      "languages": {
+        "C": 9249,
+        "Dockerfile": 1739,
+        "JavaScript": 7611,
+        "Makefile": 3671,
+        "Python": 54582
+      },
+      "status": "ok"
+    },
+    "vinnedev/rinha-2026": {
+      "bytes_total": 933610,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Jupyter Notebook",
+      "languages": {
+        "Assembly": 1495,
+        "Dockerfile": 1368,
+        "Go": 81007,
+        "JavaScript": 7664,
+        "Jupyter Notebook": 802262,
+        "Python": 35081,
+        "Shell": 4733
+      },
+      "status": "ok"
+    },
+    "vitormd/rinha-2026": {
+      "bytes_total": 102577,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 2150,
+        "Dockerfile": 1944,
+        "Go": 70520,
+        "JavaScript": 13567,
+        "Makefile": 2336,
+        "Python": 8781,
+        "Shell": 3279
+      },
+      "status": "ok"
+    },
+    "vitortvale/rinha-de-backend-2026": {
+      "bytes_total": 169511,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "OCaml",
+      "languages": {
+        "C": 4713,
+        "Dockerfile": 2148,
+        "Dune": 315,
+        "Makefile": 1297,
+        "OCaml": 120763,
+        "Python": 40275
+      },
+      "status": "ok"
+    },
+    "wendellunny/php-rinha-backend-2026": {
+      "bytes_total": 37511,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "PHP",
+      "languages": {
+        "Dockerfile": 822,
+        "PHP": 36689
+      },
+      "status": "ok"
+    },
+    "wgasparin/rinha-backend-2026-dotnet": {
+      "bytes_total": 63435,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 46379,
+        "Dockerfile": 4729,
+        "JavaScript": 10569,
+        "PowerShell": 1758
+      },
+      "status": "ok"
+    },
+    "whereisanzi/rinha-backend-2026": {
+      "bytes_total": 117607,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Rust",
+      "languages": {
+        "JavaScript": 9141,
+        "Makefile": 1588,
+        "Rust": 99073,
+        "Shell": 7805
+      },
+      "status": "ok"
+    },
+    "whoisclebs/heindall": {
+      "bytes_total": 120569,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 3233,
+        "Go": 101046,
+        "Rust": 14718,
+        "Shell": 1572
+      },
+      "status": "ok"
+    },
+    "whoisclebs/heindall-fasthttp": {
+      "bytes_total": 115321,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 2427,
+        "Go": 96604,
+        "Rust": 14718,
+        "Shell": 1572
+      },
+      "status": "ok"
+    },
+    "williancesar/rinha-de-backend-2026": {
+      "bytes_total": 56574,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 54869,
+        "Dockerfile": 1705
+      },
+      "status": "ok"
+    },
+    "willy-r/aGOrinha-2026": {
+      "bytes_total": 26427,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "C": 3159,
+        "Dockerfile": 1094,
+        "Go": 22174
+      },
+      "status": "ok"
+    },
+    "wl4dek/rinha-de-backend-go": {
+      "bytes_total": 33563,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 596,
+        "Go": 31589,
+        "JavaScript": 1378
+      },
+      "status": "ok"
+    },
+    "yanpitangui/rinha-de-backend-2026-q1": {
+      "bytes_total": 90373,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 81873,
+        "Dockerfile": 1274,
+        "Zig": 7226
+      },
+      "status": "ok"
+    },
+    "yanpitangui/rinha-de-backend-2026-q1-vptree": {
+      "bytes_total": 114686,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 105617,
+        "Dockerfile": 1770,
+        "Zig": 7299
+      },
+      "status": "ok"
+    },
+    "zanfranceschi/rinha-de-backend-2026-zan-dotnet": {
+      "bytes_total": 18862,
+      "fetched_at": "2026-06-03T20:34:13.834554+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 17380,
+        "Dockerfile": 534,
+        "Nix": 334,
+        "Shell": 614
+      },
+      "status": "ok"
+    }
+  },
+  "updated_at": "2026-06-03T20:37:06.349970+00:00"
+}
