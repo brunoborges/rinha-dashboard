@@ -235,7 +235,7 @@ def resolve_language(
                 }
                 stats["api_calls"] += 1
                 if status_text != "ok":
-                    stats[f"api_{status_text}"] += 1
+                    stats[f"api_{status_text}"] = int(stats.get(f"api_{status_text}", 0)) + 1
                 return LanguageResolution(
                     language=language,
                     status=status_text,
@@ -265,7 +265,7 @@ def resolve_language(
                     "bytes_total": 0,
                     "fetched_at": now.isoformat(),
                 }
-                stats[f"api_{status_text}"] += 1
+                stats[f"api_{status_text}"] = int(stats.get(f"api_{status_text}", 0)) + 1
                 return LanguageResolution(
                     language="Unknown",
                     status=status_text,
