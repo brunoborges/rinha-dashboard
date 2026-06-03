@@ -453,14 +453,14 @@
             <table class="leaderboard-table" id="leaderboardTable">
               <thead>
                 <tr>
-                  <th class="numeric sortable" data-sort="rank">#</th>
-                  <th class="sortable" data-sort="name">Repository</th>
-                  <th class="sortable" data-sort="language">Language</th>
-                  <th class="numeric sortable" data-sort="score">Score</th>
-                  <th class="numeric sortable" data-sort="p99">P99 (ms)</th>
-                  <th class="numeric sortable" data-sort="error">Error Rate</th>
-                  <th class="numeric sortable" data-sort="failure">Failure Rate</th>
-                  <th class="sortable hide-mobile" data-sort="participant">Participant</th>
+                  <th class="numeric">#</th>
+                  <th>Repository</th>
+                  <th>Language</th>
+                  <th class="numeric">Score</th>
+                  <th class="numeric">P99 (ms)</th>
+                  <th class="numeric">Error Rate</th>
+                  <th class="numeric">Failure Rate</th>
+                  <th class="hide-mobile">Participant</th>
                 </tr>
               </thead>
               <tbody></tbody>
@@ -842,7 +842,11 @@
 
         const sortedRecords = records
           .slice()
-          .sort((a, b) => (b.final_score ?? -Infinity) - (a.final_score ?? -Infinity));
+          .sort((a, b) => {
+            const scoreDiff = (b.final_score ?? -Infinity) - (a.final_score ?? -Infinity);
+            if (scoreDiff !== 0) return scoreDiff;
+            return (a.p99_ms ?? Infinity) - (b.p99_ms ?? Infinity);
+          });
 
         let rank = 1;
         tbody.innerHTML = sortedRecords
