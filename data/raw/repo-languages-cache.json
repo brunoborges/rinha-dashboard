@@ -2299,6 +2299,19 @@
       },
       "status": "ok"
     },
+    "mateusememe/rinha-backend-2026-c": {
+      "bytes_total": 49111,
+      "fetched_at": "2026-06-03T23:27:44.867922+00:00",
+      "language": "C",
+      "languages": {
+        "C": 38793,
+        "Dockerfile": 584,
+        "JavaScript": 5134,
+        "Makefile": 1322,
+        "Shell": 3278
+      },
+      "status": "ok"
+    },
     "matheus896/rinha-back-26": {
       "bytes_total": 159321,
       "fetched_at": "2026-06-03T20:34:13.834554+00:00",
@@ -3273,5 +3286,5 @@
       "status": "ok"
     }
   },
-  "updated_at": "2026-06-03T22:50:10.034115+00:00"
+  "updated_at": "2026-06-03T23:27:45.335829+00:00"
 }
