@@ -116,6 +116,13 @@
         grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
         gap: 12px;
       }
+      .filter-actions {
+        margin-top: 12px;
+      }
+      .filter-actions button {
+        font: inherit;
+        padding: 8px 12px;
+      }
       label {
         display: block;
         font-size: 0.85rem;
@@ -389,6 +396,9 @@
             <input id="minSamples" type="number" value="1" min="1" />
           </div>
         </div>
+        <div class="filter-actions">
+          <button id="clearFilters" type="button">Clear filters and reset sorting</button>
+        </div>
       </section>
 
       <section class="card">
@@ -471,11 +481,14 @@
     </main>
 
     <script>
+      const DEFAULT_REPO_TABLE_SORT = { column: "score", direction: "desc", secondary: "p99" };
+      const DEFAULT_LANGUAGE_TABLE_SORT = { column: "top_score", direction: "desc" };
+
       const state = {
         payload: null,
         records: [],
-        repoTableSort: { column: "score", direction: "desc", secondary: "p99" },
-        languageTableSort: { column: "top_score", direction: "desc" },
+        repoTableSort: { ...DEFAULT_REPO_TABLE_SORT },
+        languageTableSort: { ...DEFAULT_LANGUAGE_TABLE_SORT },
       };
 
       const fmt = {
@@ -684,6 +697,25 @@
         if (Number.isFinite(payload.filters.score_max)) {
           document.getElementById("scoreMax").placeholder = payload.filters.score_max.toFixed(2);
         }
+      }
+
+      function resetFiltersAndSorting() {
+        const languageFilter = document.getElementById("languageFilter");
+        Array.from(languageFilter.options).forEach((opt) => {
+          opt.selected = false;
+        });
+        document.getElementById("participantFilter").value = "";
+        document.getElementById("repoSearch").value = "";
+        document.getElementById("scoreMin").value = "";
+        document.getElementById("scoreMax").value = "";
+        document.getElementById("minSamples").value = "1";
+        document.getElementById("leaderboardSearch").value = "";
+
+        state.repoTableSort = { ...DEFAULT_REPO_TABLE_SORT };
+        state.languageTableSort = { ...DEFAULT_LANGUAGE_TABLE_SORT };
+
+        renderLeaderboard(state.records);
+        applyFilters();
       }
 
       function setupTableSorting() {
@@ -918,6 +950,7 @@
         setupTabSwitching();
         setupLeaderboardSearch();
         setupTableSorting();
+        document.getElementById("clearFilters").addEventListener("click", resetFiltersAndSorting);
         renderLeaderboard(state.records);
         document.querySelectorAll("#languageFilter, #participantFilter, #repoSearch, #scoreMin, #scoreMax, #minSamples").forEach((el) => {
           el.addEventListener("input", applyFilters);
