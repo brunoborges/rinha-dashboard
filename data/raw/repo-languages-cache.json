@@ -1391,6 +1391,17 @@
       },
       "status": "ok"
     },
+    "devcarlosoliveira/rinha-de-backend-2026-dotnet": {
+      "bytes_total": 38825,
+      "fetched_at": "2026-06-04T14:58:46.027253+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 36726,
+        "Dockerfile": 1124,
+        "Shell": 975
+      },
+      "status": "ok"
+    },
     "diegoph/rinha-backend-2026-java-native": {
       "bytes_total": 98314,
       "fetched_at": "2026-06-03T20:34:13.834554+00:00",
@@ -2034,6 +2045,19 @@
         "CMake": 1099,
         "Dockerfile": 1436,
         "Jupyter Notebook": 129947,
+        "Makefile": 1134
+      },
+      "status": "ok"
+    },
+    "jvsouzx/rb-2026-ivf": {
+      "bytes_total": 224227,
+      "fetched_at": "2026-06-04T14:58:46.027253+00:00",
+      "language": "Jupyter Notebook",
+      "languages": {
+        "C++": 45367,
+        "CMake": 1099,
+        "Dockerfile": 1635,
+        "Jupyter Notebook": 174992,
         "Makefile": 1134
       },
       "status": "ok"
@@ -2926,6 +2950,21 @@
       },
       "status": "ok"
     },
+    "rwebler/rinha-de-backend-2026": {
+      "bytes_total": 244749,
+      "fetched_at": "2026-06-04T14:58:46.027253+00:00",
+      "language": "C",
+      "languages": {
+        "C": 129726,
+        "Dockerfile": 3605,
+        "JavaScript": 8074,
+        "Makefile": 321,
+        "Nix": 338,
+        "Rust": 95344,
+        "Shell": 7341
+      },
+      "status": "ok"
+    },
     "sandrosmarzaro/rinha-2026": {
       "bytes_total": 34145,
       "fetched_at": "2026-06-03T20:34:13.834554+00:00",
@@ -3068,6 +3107,23 @@
         "Dockerfile": 1458,
         "Rust": 98329,
         "Shell": 4158
+      },
+      "status": "ok"
+    },
+    "theclanks/rinha-de-backend-2026": {
+      "bytes_total": 215200,
+      "fetched_at": "2026-06-04T14:58:46.027253+00:00",
+      "language": "C",
+      "languages": {
+        "C": 141191,
+        "Dockerfile": 1338,
+        "Elixir": 27645,
+        "JavaScript": 19613,
+        "Lua": 1602,
+        "Makefile": 666,
+        "Nix": 338,
+        "Python": 17987,
+        "Shell": 4820
       },
       "status": "ok"
     },
@@ -3344,5 +3400,5 @@
       "status": "ok"
     }
   },
-  "updated_at": "2026-06-04T07:55:48.085647+00:00"
+  "updated_at": "2026-06-04T14:58:47.351066+00:00"
 }
