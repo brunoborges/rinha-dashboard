@@ -191,6 +191,17 @@
       },
       "status": "ok"
     },
+    "FilipeBorsari/rinha-backend-2026-go": {
+      "bytes_total": 41751,
+      "fetched_at": "2026-06-04T07:55:44.352212+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 845,
+        "Go": 33242,
+        "JavaScript": 7664
+      },
+      "status": "ok"
+    },
     "Gabriel-br07/rinha-de-backend-2026-dotnet": {
       "bytes_total": 66280,
       "fetched_at": "2026-06-03T20:34:13.834554+00:00",
@@ -784,6 +795,17 @@
       },
       "status": "ok"
     },
+    "Vitor-Chassot/FRAUDE_API_C_IVF": {
+      "bytes_total": 62945,
+      "fetched_at": "2026-06-04T07:55:44.352212+00:00",
+      "language": "C",
+      "languages": {
+        "C": 61926,
+        "Dockerfile": 521,
+        "Makefile": 498
+      },
+      "status": "ok"
+    },
     "VitorNathanG/rinha-de-papagaio": {
       "bytes_total": 280121,
       "fetched_at": "2026-06-03T20:34:13.834554+00:00",
@@ -913,6 +935,18 @@
       "languages": {
         "Dockerfile": 121,
         "Go": 15456
+      },
+      "status": "ok"
+    },
+    "anjovisk/rinha-backend-2026-go": {
+      "bytes_total": 280404,
+      "fetched_at": "2026-06-04T07:55:44.352212+00:00",
+      "language": "Go",
+      "languages": {
+        "Assembly": 2610,
+        "Dockerfile": 2986,
+        "Go": 250996,
+        "JavaScript": 23812
       },
       "status": "ok"
     },
@@ -1637,6 +1671,20 @@
       },
       "status": "ok"
     },
+    "gogoncalves/rinha-mojo-2026": {
+      "bytes_total": 101613,
+      "fetched_at": "2026-06-04T07:55:44.352212+00:00",
+      "language": "Mojo",
+      "languages": {
+        "C": 292,
+        "Dockerfile": 2312,
+        "Makefile": 689,
+        "Mojo": 79810,
+        "Shell": 2122,
+        "Zig": 16388
+      },
+      "status": "ok"
+    },
     "greg0x46/rinha-backend-2026-go": {
       "bytes_total": 159654,
       "fetched_at": "2026-06-03T20:34:13.834554+00:00",
@@ -1791,6 +1839,16 @@
       "languages": {
         "Dockerfile": 36999,
         "Go": 141916
+      },
+      "status": "ok"
+    },
+    "jairoblatt/rinha-2026-rust": {
+      "bytes_total": 46275,
+      "fetched_at": "2026-06-04T07:55:44.352212+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 879,
+        "Rust": 45396
       },
       "status": "ok"
     },
@@ -3286,5 +3344,5 @@
       "status": "ok"
     }
   },
-  "updated_at": "2026-06-03T23:27:45.335829+00:00"
+  "updated_at": "2026-06-04T07:55:48.085647+00:00"
 }
