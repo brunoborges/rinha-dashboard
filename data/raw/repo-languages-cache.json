@@ -10,6 +10,16 @@
       },
       "status": "ok"
     },
+    "6se7en/rinha-nnet": {
+      "bytes_total": 141328,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "Assembly",
+      "languages": {
+        "Assembly": 140952,
+        "Dockerfile": 376
+      },
+      "status": "ok"
+    },
     "Acauhi99/rinha-de-backend-2026": {
       "bytes_total": 183113,
       "fetched_at": "2026-06-03T20:34:13.834554+00:00",
@@ -482,6 +492,17 @@
       },
       "status": "ok"
     },
+    "KGMats/Rinha-de-Backend-2026": {
+      "bytes_total": 52188,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "C++",
+      "languages": {
+        "C++": 50372,
+        "CMake": 863,
+        "Dockerfile": 953
+      },
+      "status": "ok"
+    },
     "KaueFSoares/rinha-de-backend-2026-java-quarkus": {
       "bytes_total": 31299,
       "fetched_at": "2026-06-03T20:34:13.834554+00:00",
@@ -696,6 +717,16 @@
       },
       "status": "ok"
     },
+    "Renan04lima/rinha-back-2026": {
+      "bytes_total": 45961,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "JavaScript",
+      "languages": {
+        "Dockerfile": 1754,
+        "JavaScript": 44207
+      },
+      "status": "ok"
+    },
     "RenanOfugi/rinha2026-deteccao-fraude-java": {
       "bytes_total": 109044,
       "fetched_at": "2026-06-03T20:34:13.834554+00:00",
@@ -791,6 +822,17 @@
         "Makefile": 735,
         "PowerShell": 4342,
         "Shell": 8799
+      },
+      "status": "ok"
+    },
+    "SubZer0GLX/rinha-back-net": {
+      "bytes_total": 41290,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 38988,
+        "Dockerfile": 1268,
+        "PowerShell": 1034
       },
       "status": "ok"
     },
@@ -1177,6 +1219,17 @@
       },
       "status": "ok"
     },
+    "bmtec/rinha-backend-2026-zig": {
+      "bytes_total": 91891,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "C",
+      "languages": {
+        "C": 53247,
+        "Dockerfile": 2099,
+        "Zig": 36545
+      },
+      "status": "ok"
+    },
     "breno5g/rinha-backend-2026": {
       "bytes_total": 53102,
       "fetched_at": "2026-06-03T20:34:13.834554+00:00",
@@ -1242,6 +1295,17 @@
       },
       "status": "ok"
     },
+    "carlosmms1/rinha-de-backend-2026-bun": {
+      "bytes_total": 50080,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "TypeScript",
+      "languages": {
+        "Dockerfile": 398,
+        "JavaScript": 19100,
+        "TypeScript": 30582
+      },
+      "status": "ok"
+    },
     "carlsonsantana/rinha-de-backend-2026-java": {
       "bytes_total": 95719,
       "fetched_at": "2026-06-03T20:34:13.834554+00:00",
@@ -1254,6 +1318,17 @@
         "Makefile": 159,
         "Python": 5762,
         "Shell": 2687
+      },
+      "status": "ok"
+    },
+    "carvalhocaio/rinha-de-backend-detecta-fraude": {
+      "bytes_total": 16191,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "Python",
+      "languages": {
+        "Dockerfile": 1051,
+        "JavaScript": 1051,
+        "Python": 14089
       },
       "status": "ok"
     },
@@ -1497,6 +1572,16 @@
         "Dockerfile": 805,
         "Java": 96847,
         "Shell": 662
+      },
+      "status": "ok"
+    },
+    "dominus04/rinha-backend-2026-go": {
+      "bytes_total": 23055,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 1671,
+        "Go": 21384
       },
       "status": "ok"
     },
@@ -1888,6 +1973,16 @@
       },
       "status": "ok"
     },
+    "hidekisrn/rinha-de-backend-2026-hidekisrn-dotnet": {
+      "bytes_total": 48391,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "C#",
+      "languages": {
+        "C#": 47429,
+        "Dockerfile": 962
+      },
+      "status": "ok"
+    },
     "hvitorino/rinha-de-backend-2026": {
       "bytes_total": 190028,
       "fetched_at": "2026-06-03T20:34:13.834554+00:00",
@@ -1910,6 +2005,17 @@
       "languages": {
         "Dockerfile": 8889,
         "Swift": 202790
+      },
+      "status": "ok"
+    },
+    "iamjoaovytor/swift-c-fraud-detector": {
+      "bytes_total": 242690,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "Swift",
+      "languages": {
+        "C": 16435,
+        "Dockerfile": 8847,
+        "Swift": 217408
       },
       "status": "ok"
     },
@@ -2123,6 +2229,16 @@
       },
       "status": "ok"
     },
+    "jpoliveira08/rinha-de-backend-2026-go": {
+      "bytes_total": 34881,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 310,
+        "Go": 34571
+      },
+      "status": "ok"
+    },
     "jpoliveira08/rinha-de-backend-2026-php-franken": {
       "bytes_total": 27407,
       "fetched_at": "2026-06-05T07:47:46.600168+00:00",
@@ -2177,6 +2293,16 @@
         "Dockerfile": 1635,
         "Jupyter Notebook": 174992,
         "Makefile": 1134
+      },
+      "status": "ok"
+    },
+    "karlos-silva/rinha-de-backend-2026-karlos-rust": {
+      "bytes_total": 42470,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "Rust",
+      "languages": {
+        "Dockerfile": 929,
+        "Rust": 41541
       },
       "status": "ok"
     },
@@ -2265,6 +2391,31 @@
       "languages": {
         "Dockerfile": 1617,
         "Go": 24432
+      },
+      "status": "ok"
+    },
+    "leandro-lugaresi/rinha-2026-go": {
+      "bytes_total": 114597,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "Go",
+      "languages": {
+        "Dockerfile": 1476,
+        "Go": 109425,
+        "Makefile": 3696
+      },
+      "status": "ok"
+    },
+    "lemesdaniel/floating-finch": {
+      "bytes_total": 187783,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "Zig",
+      "languages": {
+        "C": 4320,
+        "Dockerfile": 2301,
+        "Harbour": 1903,
+        "Nim": 39684,
+        "Python": 63085,
+        "Zig": 76490
       },
       "status": "ok"
     },
@@ -2463,6 +2614,19 @@
         "Makefile": 321,
         "Nix": 338,
         "Shell": 4792
+      },
+      "status": "ok"
+    },
+    "lukedays/rinha-de-backend-2026": {
+      "bytes_total": 77272,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "C",
+      "languages": {
+        "Assembly": 2508,
+        "C": 71374,
+        "Dockerfile": 1126,
+        "JavaScript": 1518,
+        "Makefile": 746
       },
       "status": "ok"
     },
@@ -2802,6 +2966,21 @@
         "JavaScript": 5904,
         "Rust": 41697,
         "Shell": 1376
+      },
+      "status": "ok"
+    },
+    "otonielsilva/rinha-de-backend-2026": {
+      "bytes_total": 235235,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "C",
+      "languages": {
+        "C": 130983,
+        "Dockerfile": 860,
+        "Go": 26179,
+        "JavaScript": 19732,
+        "Makefile": 2228,
+        "Python": 12992,
+        "Shell": 42261
       },
       "status": "ok"
     },
@@ -3299,6 +3478,13 @@
       },
       "status": "ok"
     },
+    "tinkiwinko/mumu": {
+      "bytes_total": 0,
+      "fetched_at": "2026-06-06T07:22:34.716400+00:00",
+      "language": "Unknown",
+      "languages": {},
+      "status": "empty"
+    },
     "torreslucas13/r2026-fraud-vector-search": {
       "bytes_total": 59720,
       "fetched_at": "2026-06-03T20:34:13.834554+00:00",
@@ -3582,5 +3768,5 @@
       "status": "ok"
     }
   },
-  "updated_at": "2026-06-05T07:47:52.064735+00:00"
+  "updated_at": "2026-06-06T07:22:40.942821+00:00"
 }
