@@ -1,6 +1,6 @@
 {
   "metadata": {
-    "generated_at": "2026-06-10T07:48:41.639048+00:00",
+    "generated_at": "2026-06-11T08:01:22.160779+00:00",
     "source_url": "https://raw.githubusercontent.com/arinhadebackend/arinhadebackend.github.io/2026-preview/results-preview.json",
     "schema_version": "1.0",
     "metrics_note": "average_* are arithmetic means over repository entries; weighted_* rates are weighted by expected_total when available; p99_p99_ms is percentile across per-repository p99 values.",
