@@ -1,13 +1,15 @@
 {
   "metadata": {
-    "generated_at": "2026-06-18T08:01:27.542360+00:00",
+    "generated_at": "2026-06-19T08:14:32.698338+00:00",
     "source_url": "https://raw.githubusercontent.com/arinhadebackend/arinhadebackend.github.io/2026-preview/results-preview.json",
     "schema_version": "1.0",
     "metrics_note": "average_* are arithmetic means over repository entries; weighted_* rates are weighted by expected_total when available; p99_p99_ms is percentile across per-repository p99 values.",
     "processing_stats": {
       "projects_seen": 337,
-      "cache_hits": 337,
+      "cache_hits": 332,
       "scored_projects": 337,
+      "api_calls": 5,
+      "api_empty": 5,
       "participants": 278,
       "unique_repositories": 328
     }
