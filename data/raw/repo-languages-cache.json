@@ -989,7 +989,7 @@
     },
     "alanpeixinho/rinha-beckend-2026": {
       "bytes_total": 0,
-      "fetched_at": "2026-06-24T07:28:43.598912+00:00",
+      "fetched_at": "2026-06-25T07:29:13.472165+00:00",
       "language": "Unknown",
       "languages": {},
       "status": "empty"
@@ -2045,14 +2045,14 @@
     },
     "italovinicius18/rinha-ai-2026-cpu": {
       "bytes_total": 0,
-      "fetched_at": "2026-06-24T07:28:43.598912+00:00",
+      "fetched_at": "2026-06-25T07:29:13.472165+00:00",
       "language": "Unknown",
       "languages": {},
       "status": "empty"
     },
     "italovinicius18/rinha-ai-2026-deep": {
       "bytes_total": 0,
-      "fetched_at": "2026-06-24T07:28:43.598912+00:00",
+      "fetched_at": "2026-06-25T07:29:13.472165+00:00",
       "language": "Unknown",
       "languages": {},
       "status": "empty"
@@ -3185,7 +3185,7 @@
     },
     "reidn3r/rinha-backend-decision-tree-clf": {
       "bytes_total": 0,
-      "fetched_at": "2026-06-24T07:28:43.598912+00:00",
+      "fetched_at": "2026-06-25T07:29:13.472165+00:00",
       "language": "Unknown",
       "languages": {},
       "status": "empty"
@@ -3480,7 +3480,7 @@
     },
     "tinkiwinko/mumu": {
       "bytes_total": 0,
-      "fetched_at": "2026-06-24T07:28:43.598912+00:00",
+      "fetched_at": "2026-06-25T07:29:13.472165+00:00",
       "language": "Unknown",
       "languages": {},
       "status": "empty"
@@ -3768,5 +3768,5 @@
       "status": "ok"
     }
   },
-  "updated_at": "2026-06-24T07:28:46.701806+00:00"
+  "updated_at": "2026-06-25T07:29:16.338037+00:00"
 }
